@@ -12,3 +12,11 @@
     </v-row>
   </section>
 </template>
+
+<script>
+export default {
+  beforeCreate() {
+    this.$vuetify.theme.dark = true
+  },
+}
+</script>

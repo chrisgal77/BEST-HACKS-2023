@@ -1,10 +1,18 @@
 <template>
-  <svg
+  <img
+    width="151"
+    height="55"
+    viewBox="0 0 151 55"
+    fill="none"
+    src="../static/logo.svg"
+  />
+  <!-- <svg
     width="151"
     height="55"
     viewBox="0 0 151 55"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    src="../static/logo.svg"
   >
     <path
       d="M53.6914 18.9375L57.5 30.8086L61.2969 18.9375H66.7109V36H62.5859V32.0156L62.9844 23.8594L58.8594 36H56.1406L52.0039 23.8477L52.4023 32.0156V36H48.2891V18.9375H53.6914ZM116.012 31.3594L119.41 18.9375H124.004L118.262 36H113.762L108.066 18.9375H112.625L116.012 31.3594Z"
@@ -22,7 +30,7 @@
       d="M20.4063 33.9755L27.0151 9.81917H35.9484L24.7818 43H16.0308L4.95534 9.81917H13.8203L20.4063 33.9755Z"
       :class="$vuetify.theme.dark ? 'fill-light-color' : 'fill-dark-color'"
     />
-  </svg>
+  </svg> -->
 </template>
 
 <style scoped>

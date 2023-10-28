@@ -86,6 +86,8 @@
         > </template
       ><v-spacer />
 
+      <div>{{ username() }}</div>
+
       <v-btn icon @click="changeThemeColor">
         <v-icon>{{
           $vuetify.theme.dark ? 'mdi-white-balance-sunny' : 'mdi-weather-night'
@@ -113,7 +115,7 @@ export default {
           to: '/about',
         },
         {
-          icon: 'mdi-tools',
+          icon: 'mdi-airballoon',
           title: 'Wydarzenia',
           submenu: [
             {
@@ -131,7 +133,7 @@ export default {
           ],
         },
         {
-          icon: 'mdi-tools',
+          icon: 'mdi-account-multiple',
           title: 'Spotkania',
           submenu: [
             {
@@ -149,12 +151,12 @@ export default {
           ],
         },
         {
-          icon: 'mdi-cash-usd',
+          icon: 'mdi-duck',
           title: 'Cennik',
           to: '/pricing',
         },
         {
-          icon: 'mdi-blogger',
+          icon: 'mdi-tools',
           title: 'Mój profil',
           to: '/profile',
           submenu: this.userProfileSubpages(),
@@ -173,7 +175,7 @@ export default {
     },
     userProfileSubpages() {
       if (typeof window !== 'undefined') {
-        if (this.getCookie('token') === '') {
+        if (this.getCookie('TOKEN') === '') {
           return [
             {
               title: 'Zaloguj',
@@ -200,6 +202,9 @@ export default {
       return []
     },
     getCookie(cname) {
+      if (typeof window === 'undefined') {
+        return ''
+      }
       const name = cname + '='
       const decodedCookie = decodeURIComponent(document.cookie)
       const ca = decodedCookie.split(';')
@@ -213,6 +218,11 @@ export default {
         }
       }
       return ''
+    },
+    username() {
+      if (this.getCookie('NAME') !== '') {
+        return 'Hello, ' + this.getCookie('NAME')
+      }
     },
   },
 }

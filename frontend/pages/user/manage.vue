@@ -6,7 +6,6 @@
       <v-text-field
         v-model="email"
         :readonly="loading"
-        :rules="[required]"
         class="mb-2"
         clearable
         label="Email"
@@ -14,11 +13,17 @@
       <v-text-field
         v-model="password"
         :readonly="loading"
-        :rules="[required]"
         clearable
         label="Hasło"
         placeholder="Wprowadź swoje hasło"
       ></v-text-field>
+      <v-textarea
+        dense
+        label="Wprowadź swój Opis"
+        auto-grow
+        rows="8"
+        row-height="20"
+      ></v-textarea>
       <v-btn
         :disabled="!form"
         :loading="loading"
@@ -28,7 +33,7 @@
         type="submit"
         variant="elevated"
       >
-        Zarejestruj się
+        Zaktualizuj
       </v-btn>
     </v-form>
   </v-col>
@@ -52,12 +57,6 @@ export default {
       this.loading = true
 
       setTimeout(() => (this.loading = false), 2000)
-      if (typeof window !== 'undefined') {
-        document.cookie = 'token=ASDF1234'
-      }
-    },
-    required(v) {
-      return !!v || 'Field is required'
     },
   },
 }
