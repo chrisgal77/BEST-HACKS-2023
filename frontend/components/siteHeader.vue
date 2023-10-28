@@ -176,6 +176,10 @@ export default {
         if (this.getCookie('token') === '') {
           return [
             {
+              title: 'Zaloguj',
+              to: '/user/login',
+            },
+            {
               title: 'Zarejestruj',
               to: '/user/register',
             },

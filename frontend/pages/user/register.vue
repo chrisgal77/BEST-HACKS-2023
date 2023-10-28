@@ -1,6 +1,6 @@
 <template>
   <v-col cols="12" md="5" class="py-12">
-    Zarejestruj nowe konto
+    Utwórz nowe konto
     <v-form v-model="form" @submit.prevent="onSubmit">
       <v-text-field label="Imie"></v-text-field>
       <v-text-field
@@ -55,6 +55,7 @@ export default {
       if (typeof window !== 'undefined') {
         document.cookie = 'token=ASDF1234'
       }
+      window.location.replace('../../')
     },
     required(v) {
       return !!v || 'Field is required'
