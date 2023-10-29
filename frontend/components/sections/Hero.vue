@@ -26,12 +26,14 @@
               czego szukasz, a może uda mi się znaleźć coś co Cię zainteresuje
               ;)
             </p>
-            <v-btn
-              :x-large="$vuetify.breakpoint.smAndUp"
-              class="my-3 primary"
-              @click="sendRequest()"
-              >Wyszukaj</v-btn
-            >
+            <nuxt-link :to="getLink()">
+              <v-btn
+                :x-large="$vuetify.breakpoint.smAndUp"
+                class="my-3 primary"
+                @click="sendRequest()"
+                >Wyszukaj</v-btn
+              >
+            </nuxt-link>
             <span class="mx-2 my-4"></span>
             <v-text-field
               v-model="query"
@@ -61,10 +63,8 @@ export default {
     }
   },
   methods: {
-    sendRequest() {
-      window.location.replace(
-        './fastNotification?query=' + encodeURI(this.query)
-      )
+    getLink() {
+      return './fastNotification?query=' + encodeURI(this.query)
     },
   },
 }

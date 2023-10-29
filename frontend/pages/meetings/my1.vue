@@ -1,54 +1,64 @@
 <template>
-  <section :class="this.$vuetify.theme.dark ? '' : 'grey lighten-4'">
-    <v-row no-gutters> </v-row>
-    <SectionsHeroAlt :hero-alt="heroAlt" />
-    <div v-if="allPosts().length === 0">
-      Na razie nic tu nie ma, ale nie martw się, wkrótce się coś pojawi!
-    </div>
-    <v-container v-if="allPosts().length !== 0">
-      <div
-        v-if="topic?.common_topic"
-        class="position-absolute d-flex align-center justify-center w-100 h-100"
-      >
-        <v-card class="mx-auto">
-          <v-card-title class="py-5 font-weight-black">{{
-            topic.common_topic
-          }}</v-card-title>
-        </v-card>
+  <div>
+    <alert :alert-text="alertText" />
+    <section :class="this.$vuetify.theme.dark ? '' : 'grey lighten-4'">
+      <v-row no-gutters> </v-row>
+      <SectionsHeroAlt :hero-alt="heroAlt" />
+      <div v-if="allPosts().length === 0">
+        Na razie nic tu nie ma, ale nie martw się, wkrótce się coś pojawi!
       </div>
-      <v-row class="mt-5">
-        <v-col>
-          <v-row> </v-row>
-          <v-row><h1>Do dyskusji pasują:</h1></v-row>
-          <v-row v-for="user in topic.recommended_users" :key="user">
-            <h3><v-icon>mdi-account</v-icon> {{ user }}</h3>
-          </v-row>
-          <v-row class="mt-10" />
-          <v-row><h1>Ciekawe miejsca na dyskusję:</h1></v-row>
-          <v-row v-for="post in allPosts()" :key="post">
-            <h3>
-              <div v-if="post.type === 'culture'">
-                <v-icon>mdi-church</v-icon> {{ post.name }}
-              </div>
-              <div v-if="post.type === 'recreation'">
-                <v-icon>mdi-weight</v-icon> {{ post.name }}
-              </div>
-              <div v-if="post.type === 'sightseeing'">
-                <v-icon>mdi-castle</v-icon> {{ post.name }}
-              </div>
-            </h3>
-          </v-row>
-        </v-col>
-      </v-row>
-    </v-container>
-    <div v-if="allPosts().length !== 0">
-      <v-btn color="warning" x-large class="mt-10" block>Zacznij rozmowę</v-btn>
-    </div>
-  </section>
+      <v-container v-if="allPosts().length !== 0">
+        <div
+          v-if="topic?.common_topic"
+          class="position-absolute d-flex align-center justify-center w-100 h-100"
+        >
+          <v-card class="mx-auto">
+            <v-card-title class="py-5 font-weight-black">{{
+              topic.common_topic
+            }}</v-card-title>
+          </v-card>
+        </div>
+        <v-row class="mt-5">
+          <v-col>
+            <v-row> </v-row>
+            <v-row><h1>Do dyskusji pasują:</h1></v-row>
+            <v-row v-for="user in topic.recommended_users" :key="user">
+              <h3><v-icon>mdi-account</v-icon> {{ user }}</h3>
+            </v-row>
+            <v-row class="mt-10" />
+            <v-row><h1>Ciekawe miejsca na dyskusję:</h1></v-row>
+            <v-row v-for="post in allPosts()" :key="post">
+              <h3>
+                <div v-if="post.type === 'culture'">
+                  <v-icon>mdi-church</v-icon> {{ post.name }}
+                </div>
+                <div v-if="post.type === 'recreation'">
+                  <v-icon>mdi-weight</v-icon> {{ post.name }}
+                </div>
+                <div v-if="post.type === 'sightseeing'">
+                  <v-icon>mdi-castle</v-icon> {{ post.name }}
+                </div>
+              </h3>
+            </v-row>
+          </v-col>
+        </v-row>
+      </v-container>
+      <div v-if="allPosts().length !== 0">
+        <v-btn color="warning" x-large class="mt-10" block
+          >Zacznij rozmowę</v-btn
+        >
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
+import alert from '../../components/sections/Alert.vue'
+
 export default {
+  components: {
+    alert,
+  },
   data() {
     return {
       heroAlt: [
@@ -189,7 +199,9 @@ export default {
       this.loading = false
       this.$forceUpdate()
     },
-    localAlert(msg) {},
+    localAlert(msg) {
+      this.alertText = msg
+    },
   },
   head() {
     return {

@@ -1,12 +1,10 @@
 <template>
   <div class="gigantic-button">
-    <button
-      class="discover-button"
-      :style="{ background: backgroundColor }"
-      @click="discover"
-    >
-      Odkrywaj
-    </button>
+    <nuxt-link to="./my1">
+      <button class="discover-button" :style="{ background: backgroundColor }">
+        Odkrywaj
+      </button>
+    </nuxt-link>
   </div>
 </template>
 

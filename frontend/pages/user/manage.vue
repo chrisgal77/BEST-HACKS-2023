@@ -1,40 +1,47 @@
 <template>
-  <v-col cols="12" md="5" class="py-12">
-    Edytuj swoje dane
-    <v-form v-model="form" @submit.prevent="onSubmit">
-      <v-textarea
-        v-model="description"
-        dense
-        label="Wprowadź swój Opis"
-        auto-grow
-        rows="8"
-        row-height="20"
-      ></v-textarea>
-      <v-btn
-        :disabled="!form"
-        :loading="loading"
-        block
-        color="success"
-        size="large"
-        type="submit"
-        variant="elevated"
-      >
-        Zaktualizuj
-      </v-btn>
-    </v-form>
-  </v-col>
+  <div>
+    <alert :alert-text="alertText" />
+    <v-col cols="12" md="5" class="py-12">
+      Edytuj swoje dane
+      <v-form v-model="form" @submit.prevent="onSubmit">
+        <v-textarea
+          v-model="description"
+          dense
+          label="Wprowadź swój Opis"
+          auto-grow
+          rows="8"
+          row-height="20"
+        ></v-textarea>
+        <v-btn
+          :disabled="!form"
+          :loading="loading"
+          block
+          color="success"
+          size="large"
+          type="submit"
+          variant="elevated"
+        >
+          Zaktualizuj
+        </v-btn>
+      </v-form>
+    </v-col>
+  </div>
 </template>
 
 <script>
+import alert from '../../components/sections/Alert.vue'
+
 export default {
+  components: {
+    alert,
+  },
   data: () => ({
     form: false,
     description: null,
     loading: false,
+    alertText: null,
   }),
-  mounted() {
-    // window.location.replace('../../')
-  },
+  mounted() {},
   methods: {
     async onSubmit() {
       if (!this.form) return
@@ -69,7 +76,9 @@ export default {
       }
       this.loading = false
     },
-    localAlert(msg) {},
+    localAlert(msg) {
+      this.alertText = msg
+    },
     getCookie(cname) {
       if (typeof window === 'undefined') {
         return ''
