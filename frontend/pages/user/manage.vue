@@ -57,16 +57,19 @@ export default {
           }
         )
         if (response.status !== 200) {
-          alert('An error occured during update. Try again with different data')
+          this.localAlert(
+            'An error occured during update. Try again with different data'
+          )
           this.loading = false
           return
         }
         window.location.replace('../../')
       } catch (e) {
-        alert('An error occured during update: ' + e.message)
+        this.localAlert('An error occured during update: ' + e.message)
       }
       this.loading = false
     },
+    localAlert(msg) {},
     getCookie(cname) {
       if (typeof window === 'undefined') {
         return ''

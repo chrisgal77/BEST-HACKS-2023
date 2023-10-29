@@ -24,6 +24,7 @@
         :rules="[required]"
         clearable
         label="Hasło"
+        type="password"
         placeholder="Wprowadź swoje hasło"
       ></v-text-field>
       <v-textarea
@@ -87,7 +88,7 @@ export default {
           }
         )
         if (response.status !== 200) {
-          alert(
+          this.localAlert(
             'An error occured during registering. Try again with different data'
           )
           this.loading = false
@@ -100,10 +101,11 @@ export default {
         }
         window.location.replace('../../')
       } catch (e) {
-        alert('An error occured during registering: ' + e.message)
+        this.localAlert('An error occured during registering: ' + e.message)
       }
       this.loading = false
     },
+    localAlert(msg) {},
     required(v) {
       return !!v || 'Field is required'
     },

@@ -8,7 +8,7 @@
         :rules="[required]"
         class="mb-2"
         clearable
-        label="Email"
+        label="Login"
       ></v-text-field>
       <v-text-field
         v-model="password"
@@ -16,6 +16,7 @@
         :rules="[required]"
         clearable
         label="Hasło"
+        type="password"
         placeholder="Wprowadź swoje hasło"
       ></v-text-field>
       <v-btn
@@ -66,7 +67,7 @@ export default {
           }
         )
         if (response.status !== 200) {
-          alert(
+          this.localAlert(
             'An error occured during logging. Try again with different data'
           )
           this.loading = false
@@ -78,10 +79,11 @@ export default {
         }
         window.location.replace('../../')
       } catch (e) {
-        alert('An error occured during logging: ' + e.message)
+        this.localAlert('An error occured during logging: ' + e.message)
       }
       this.loading = false
     },
+    localAlert(msg) {},
     required(v) {
       return !!v || 'Field is required'
     },

@@ -159,7 +159,7 @@ export default {
           }
         )
         if (response.status !== 200) {
-          alert(
+          this.localAlert(
             'An error occured during data fetch. Try again with different data'
           )
           this.loading = false
@@ -168,11 +168,12 @@ export default {
         const data = await response.json()
         this.posts = data
       } catch (e) {
-        alert('An error occured during data fetch: ' + e.message)
+        this.localAlert('An error occured during data fetch: ' + e.message)
       }
       this.loading = false
       this.$forceUpdate()
     },
+    localAlert(msg) {},
   },
   head() {
     return {
