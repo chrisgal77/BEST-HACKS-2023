@@ -8,7 +8,7 @@
               <h2
                 class="text-h4 text-md-h3 text-center font-weight-black text-capitalize mb-4"
               >
-                The most affordable pricing
+                Najdostępniejsze plany płatności
               </h2>
 
               <p class="my-10 title">
@@ -25,8 +25,8 @@
                   light
                   color="white"
                 >
-                  <v-btn value="monthly"> Monthly Plan </v-btn>
-                  <v-btn value="yearly"> Yearly Plan </v-btn>
+                  <v-btn value="monthly"> Miesięcznie </v-btn>
+                  <v-btn value="yearly"> Rocznie </v-btn>
                 </v-btn-toggle>
               </div>
             </v-col>
@@ -57,7 +57,7 @@
                 class="text-h5 font-weight-black text-center white--text pt-0"
                 >{{ planDuration === 'monthly' ? plan.monthly : plan.yearly }}
                 <span class="subtitle-1"
-                  >per {{ planDuration === 'monthly' ? 'month' : 'year' }}</span
+                  >na {{ planDuration === 'monthly' ? 'miesiąc' : 'rok' }}</span
                 ></v-card-subtitle
               >
               <v-list>
@@ -86,7 +86,7 @@
                     rounded
                     class="mx-auto my-3"
                   >
-                    Buy Now
+                    Kup teraz
                   </v-btn>
                 </v-list-item>
               </v-list>
@@ -105,116 +105,68 @@ export default {
       planDuration: 'monthly',
       plans: [
         {
-          plan: 'Basic',
+          plan: 'Podstawowy',
           elevation: 0,
           color: 'primary darken-1',
-          description: 'Best Plan for Small Businesses',
-          monthly: '$10',
-          yearly: '$100',
+          description: 'Podstawowy plan dla użytkownika',
+          monthly: '0zł',
+          yearly: '0zł',
           features: [
             {
-              icon: 'mdi-web',
-              text: '5 websites',
+              icon: 'mdi-account-multiple',
+              text: 'Dostęp do platformy',
             },
             {
-              icon: 'mdi-harddisk',
-              text: '10 GB storage',
-            },
-            {
-              icon: 'mdi-signal',
-              text: '500 GB bandwidth',
-            },
-            {
-              icon: 'mdi-account',
-              text: '10 email addreses',
-            },
-            {
-              icon: 'mdi-domain',
-              text: 'free domain with annual plan',
-            },
-            {
-              icon: 'mdi-server',
-              text: '4X pricessing power',
-            },
-            {
-              icon: 'mdi-dns',
-              text: 'premium DNS',
+              icon: 'mdi-laptop',
+              text: 'Reklamy',
             },
           ],
         },
         {
-          plan: 'Silver',
+          plan: 'Plus',
           elevation: 16,
           color: 'green darken-2',
-          description: 'Best Plan for Professional Users',
-          monthly: '$40',
-          yearly: '$400',
+          description: 'Dla tych, którzy nie lubią reklam :)',
+          monthly: '4.95zł',
+          yearly: '49.95zł',
           features: [
             {
-              icon: 'mdi-web',
-              text: '5 websites',
+              icon: 'mdi-account-multiple',
+              text: 'Dostęp do platformy',
             },
             {
-              icon: 'mdi-harddisk',
-              text: '10 GB storage',
-            },
-            {
-              icon: 'mdi-signal',
-              text: '500 GB bandwidth',
-            },
-            {
-              icon: 'mdi-account',
-              text: '10 email addreses',
-            },
-            {
-              icon: 'mdi-domain',
-              text: 'free domain with annual plan',
-            },
-            {
-              icon: 'mdi-server',
-              text: '4X pricessing power',
-            },
-            {
-              icon: 'mdi-dns',
-              text: 'premium DNS',
+              icon: 'mdi-laptop-off',
+              text: 'Brak reklam',
             },
           ],
         },
         {
-          plan: 'Gold',
+          plan: 'Donor',
           elevation: 0,
           color: 'orange darken-3',
-          description: 'Best Plan for Power Users',
-          monthly: '$100',
-          yearly: '$1000',
+          description: 'Wsparcie platformy i lokalnych inicjatyw',
+          monthly: '4.95zł+',
+          yearly: '49.95zł+',
           features: [
             {
-              icon: 'mdi-web',
-              text: 'unlimited websites',
+              icon: 'mdi-account-multiple',
+              text: 'Dostęp do platformy',
             },
             {
-              icon: 'mdi-harddisk',
-              text: 'unlimited storage',
+              icon: 'mdi-laptop',
+              text: 'Reklamy',
             },
             {
-              icon: 'mdi-signal',
-              text: 'unlimited bandwidth',
+              icon: 'mdi-star-circle',
+              text: 'Odznaka wspierającego',
             },
             {
-              icon: 'mdi-account',
-              text: 'unlimited addreses',
+              icon: 'mdi-medical-bag',
+              text: '50% z przychodu na lokalne inicjatywy',
             },
             {
-              icon: 'mdi-domain',
-              text: 'free domain with annual plan',
-            },
-            {
-              icon: 'mdi-server',
-              text: '4X pricessing power',
-            },
-            {
-              icon: 'mdi-dns',
-              text: 'premium DNS',
+              icon: 'mdi-heart',
+              text: 'Nasza dozgonna wdzięczność <3',
             },
           ],
         },

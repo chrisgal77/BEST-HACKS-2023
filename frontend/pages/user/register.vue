@@ -2,14 +2,21 @@
   <v-col cols="12" md="5" class="py-12">
     Utwórz nowe konto
     <v-form v-model="form" @submit.prevent="onSubmit">
-      <v-text-field label="Imie"></v-text-field>
       <v-text-field
-        v-model="email"
+        v-model="name"
         :readonly="loading"
         :rules="[required]"
         class="mb-2"
         clearable
-        label="Email"
+        label="Imie"
+      ></v-text-field>
+      <v-text-field
+        v-model="login"
+        :readonly="loading"
+        :rules="[required]"
+        class="mb-2"
+        clearable
+        label="Login"
       ></v-text-field>
       <v-text-field
         v-model="password"
@@ -23,6 +30,7 @@
         v-model="description"
         dense
         label="Wprowadź swój Opis"
+        :rules="[required]"
         auto-grow
         rows="8"
         row-height="20"
@@ -46,8 +54,9 @@
 export default {
   data: () => ({
     form: false,
-    email: null,
+    name: null,
     password: null,
+    login: null,
     loading: false,
     description: null,
   }),
@@ -60,32 +69,39 @@ export default {
 
       this.loading = true
 
-      const response = await fetch('http://127.0.0.1:8000/register/', {
-        method: 'POST',
-        headers: {
-          Accept: 'application/json',
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          login: this.email,
-          password: this.password,
-          user: this.email,
-          description: this.description,
-        }),
-      })
-      if (response.status !== 200) {
-        alert(
-          'An error occured during registering. Try again with different data'
+      try {
+        const response = await fetch(
+          window.location.origin.replace('3000', '8000') + '/register/',
+          {
+            method: 'POST',
+            headers: {
+              Accept: 'application/json',
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              password: this.password,
+              login: this.login,
+              name: this.name,
+              description: this.description,
+            }),
+          }
         )
-        this.loading = false
-        return
+        if (response.status !== 200) {
+          alert(
+            'An error occured during registering. Try again with different data'
+          )
+          this.loading = false
+          return
+        }
+        const data = await response.json()
+        if (typeof window !== 'undefined') {
+          document.cookie = 'user_id=' + data.user_id
+          document.cookie = 'user=' + data.user
+        }
+        window.location.replace('../../')
+      } catch (e) {
+        alert('An error occured during registering: ' + e.message)
       }
-      const data = await response.json()
-      if (typeof window !== 'undefined') {
-        document.cookie = 'token=' + data.token
-        document.cookie = 'user=' + data.user
-      }
-      window.location.replace('../../')
       this.loading = false
     },
     required(v) {

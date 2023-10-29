@@ -118,16 +118,16 @@ export default {
           icon: 'mdi-airballoon',
           title: 'Wydarzenia',
           submenu: [
+            // {
+            //   title: 'Zapisz się',
+            //   to: '/events/join',
+            // },
+            // {
+            //   title: 'Wszystkie wydarzenia',
+            //   to: '/events/explore',
+            // },
             {
-              title: 'Zapisz się',
-              to: '/events/join',
-            },
-            {
-              title: 'Odkrywaj',
-              to: '/events/explore',
-            },
-            {
-              title: 'Moje wydarzenia',
+              title: 'Wydarzenia dla mnie',
               to: '/events/my',
             },
           ],
@@ -136,16 +136,16 @@ export default {
           icon: 'mdi-account-multiple',
           title: 'Spotkania',
           submenu: [
+            // {
+            //   title: 'Zapisz się',
+            //   to: '/meetings/join',
+            // },
+            // {
+            //   title: 'Odkrywaj',
+            //   to: '/meetings/explore',
+            // },
             {
-              title: 'Zapisz się',
-              to: '/meetings/join',
-            },
-            {
-              title: 'Odkrywaj',
-              to: '/meetings/explore',
-            },
-            {
-              title: 'Moje spotkania',
+              title: 'Spotkania dla mnie',
               to: '/meetings/my',
             },
           ],
@@ -162,7 +162,6 @@ export default {
           submenu: this.userProfileSubpages(),
         },
       ],
-      cookie: { token: 'asd' },
     }
   },
   methods: {
@@ -175,7 +174,7 @@ export default {
     },
     userProfileSubpages() {
       if (typeof window !== 'undefined') {
-        if (this.getCookie('token') === '') {
+        if (this.getCookie('user_id') === '') {
           return [
             {
               title: 'Zaloguj',

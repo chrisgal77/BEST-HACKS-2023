@@ -3,11 +3,11 @@
     <v-row no-gutters>
       <v-col cols="12">
         <SectionsHero />
-        <SectionsIntro />
-        <SectionsCalloutBlock />
-        <SectionsFeatures />
+        <!-- <SectionsIntro />
+        <SectionsCalloutBlock /> -->
+        <!-- <SectionsFeatures />
         <SectionsBrands />
-        <SectionsTestimonials />
+        <SectionsTestimonials /> -->
       </v-col>
     </v-row>
   </section>

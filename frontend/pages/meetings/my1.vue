@@ -2,58 +2,51 @@
   <section :class="this.$vuetify.theme.dark ? '' : 'grey lighten-4'">
     <v-row no-gutters> </v-row>
     <SectionsHeroAlt :hero-alt="heroAlt" />
-    <v-container>
-      <v-row>
+    <div v-if="allPosts().length === 0">
+      Na razie nic tu nie ma, ale nie martw się, wkrótce się coś pojawi!
+    </div>
+    <v-container v-if="allPosts().length !== 0">
+      <div
+        v-if="topic?.common_topic"
+        class="position-absolute d-flex align-center justify-center w-100 h-100"
+      >
+        <v-btn
+          size="x-large"
+          color="primary"
+          block
+          @click="snackbar = !snackbar"
+        >
+          <h1>{{ topic.common_topic }}</h1>
+        </v-btn>
+      </div>
+      <v-row class="mt-5">
         <v-col>
-          <v-row>
-            <div v-if="allPosts().length === 0">
-              Na razie nic tu nie ma, ale nie martw się, wkrótce się coś pojawi!
-            </div>
-            <v-col
-              v-for="post in allPosts()"
-              :key="post"
-              sm="6"
-              md="6"
-              lg="4"
-              xl="3"
-            >
-              <v-card
-                max-width="450"
-                class="mx-auto"
-                elevation="1"
-                :color="getColor(post.type)"
-              >
-                <v-img
-                  class="white--text align-end"
-                  height="200px"
-                  :src="post.image"
-                >
-                </v-img>
-                <v-card-subtitle class="pb-0"> </v-card-subtitle>
-                <v-card-text
-                  class="title font-weight-bold mt-3 pb-0 text--primary"
-                  style="line-height: 1.8rem"
-                >
-                  {{ post.name }}
-                </v-card-text>
-                <div v-if="post.type === 'culture'" class="mx-2">
-                  <v-icon>mdi-church</v-icon>
-                  Kultura
-                </div>
-                <div v-if="post.type === 'recreation'" class="mx-2">
-                  <v-icon>mdi-weight</v-icon>
-                  Rekreacja
-                </div>
-                <div v-if="post.type === 'sightseeing'" class="mx-2">
-                  <v-icon>mdi-castle</v-icon>
-                  Zwiedzanie
-                </div>
-              </v-card>
-            </v-col>
+          <v-row> </v-row>
+          <v-row><h1>Do dyskusji pasują:</h1></v-row>
+          <v-row v-for="user in topic.recommended_users" :key="user">
+            <h3><v-icon>mdi-account</v-icon> {{ user }}</h3>
+          </v-row>
+          <v-row class="mt-10" />
+          <v-row><h1>Może fajnym miejscem będzie:</h1></v-row>
+          <v-row v-for="post in allPosts()" :key="post">
+            <h3>
+              <div v-if="post.type === 'culture'">
+                <v-icon>mdi-church</v-icon> {{ post.name }}
+              </div>
+              <div v-if="post.type === 'recreation'">
+                <v-icon>mdi-weight</v-icon> {{ post.name }}
+              </div>
+              <div v-if="post.type === 'sightseeing'">
+                <v-icon>mdi-castle</v-icon> {{ post.name }}
+              </div>
+            </h3>
           </v-row>
         </v-col>
       </v-row>
     </v-container>
+    <div v-if="allPosts().length !== 0">
+      <v-btn color="warning" x-large class="mr-5">Zacznij rozmowę</v-btn>
+    </div>
   </section>
 </template>
 
@@ -63,19 +56,21 @@ export default {
     return {
       heroAlt: [
         {
-          heading: ' Coś nam mówi, że to Cię zainteresuje ;) ',
+          heading: ' Co powiesz na dyskusję o... ',
         },
       ],
-      posts: {
+      places: {
         culture: [],
         recreation: [],
         sightseeing: [],
       },
+      topic: {},
       loading: false,
     }
   },
   created() {
-    this.fetchData()
+    this.fetchPlaces()
+    this.fetchTopic()
   },
   methods: {
     getCookie(cname) {
@@ -98,7 +93,7 @@ export default {
     },
     allPosts() {
       const allposts = []
-      for (const post of this.posts.culture) {
+      for (const post of this.places.culture) {
         const postLocal = {
           name: post.name,
           image: 'data:image/png;base64, ' + post.image,
@@ -106,7 +101,7 @@ export default {
         }
         allposts.push(postLocal)
       }
-      for (const post of this.posts.recreation) {
+      for (const post of this.places.recreation) {
         const postLocal = {
           name: post.name,
           image: 'data:image/png;base64, ' + post.image,
@@ -114,7 +109,7 @@ export default {
         }
         allposts.push(postLocal)
       }
-      for (const post of this.posts.sightseeing) {
+      for (const post of this.places.sightseeing) {
         const postLocal = {
           name: post.name,
           image: 'data:image/png;base64, ' + post.image,
@@ -133,7 +128,42 @@ export default {
       }
       return 'green darken-5'
     },
-    async fetchData() {
+    async fetchTopic() {
+      // if (!this.form) return
+
+      this.loading = true
+
+      try {
+        const response = await fetch(
+          window.location.origin.replace('3000', '8000') + '/propose-topic/',
+          {
+            method: 'POST',
+            headers: {
+              Accept: 'application/json',
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              user_id: this.getCookie('user_id'),
+            }),
+          }
+        )
+        if (response.status !== 200) {
+          alert(
+            'An error occured during data fetch. Try again with different data'
+          )
+          this.loading = false
+          return
+        }
+        const data = await response.json()
+        this.topic = data
+        console.log(data)
+      } catch (e) {
+        alert('An error occured during data fetch: ' + e.message)
+      }
+      this.loading = false
+      this.$forceUpdate()
+    },
+    async fetchPlaces() {
       // if (!this.form) return
 
       this.loading = true
@@ -160,7 +190,7 @@ export default {
           return
         }
         const data = await response.json()
-        this.posts = data
+        this.places = data
       } catch (e) {
         alert('An error occured during data fetch: ' + e.message)
       }

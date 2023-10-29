@@ -1,5 +1,5 @@
 <template>
-  <v-footer
+  <!-- <v-footer
     :class="
       $vuetify.theme.dark
         ? 'blue-grey darken-4 grey--text text--lighten-1'
@@ -38,7 +38,8 @@
         </v-col>
       </v-row>
     </v-container>
-  </v-footer>
+  </v-footer> -->
+  <div></div>
 </template>
 
 <script>

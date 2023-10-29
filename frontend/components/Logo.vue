@@ -1,11 +1,13 @@
 <template>
-  <img
-    width="151"
-    height="55"
-    viewBox="0 0 151 55"
-    fill="none"
-    src="../static/logo.svg"
-  />
+  <div>
+    <img
+      width="151"
+      height="55"
+      viewBox="0 0 151 55"
+      fill="none"
+      src="../static/logo.svg"
+    />
+  </div>
   <!-- <svg
     width="151"
     height="55"

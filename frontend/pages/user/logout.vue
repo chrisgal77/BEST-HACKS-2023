@@ -6,8 +6,7 @@
 export default {
   mounted() {
     if (typeof window !== 'undefined') {
-      document.cookie = 'token='
-      document.cookie = 'user='
+      document.cookie = 'user_id='
     }
     window.location.replace('../../')
   },

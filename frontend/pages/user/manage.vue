@@ -2,22 +2,8 @@
   <v-col cols="12" md="5" class="py-12">
     Edytuj swoje dane
     <v-form v-model="form" @submit.prevent="onSubmit">
-      <v-text-field label="Imie"></v-text-field>
-      <v-text-field
-        v-model="email"
-        :readonly="loading"
-        class="mb-2"
-        clearable
-        label="Email"
-      ></v-text-field>
-      <v-text-field
-        v-model="password"
-        :readonly="loading"
-        clearable
-        label="Hasło"
-        placeholder="Wprowadź swoje hasło"
-      ></v-text-field>
       <v-textarea
+        v-model="description"
         dense
         label="Wprowadź swój Opis"
         auto-grow
@@ -43,20 +29,61 @@
 export default {
   data: () => ({
     form: false,
-    email: null,
-    password: null,
+    description: null,
     loading: false,
   }),
   mounted() {
     // window.location.replace('../../')
   },
   methods: {
-    onSubmit() {
+    async onSubmit() {
       if (!this.form) return
 
       this.loading = true
 
-      setTimeout(() => (this.loading = false), 2000)
+      try {
+        const response = await fetch(
+          window.location.origin.replace('3000', '8000') + '/update/',
+          {
+            method: 'POST',
+            headers: {
+              Accept: 'application/json',
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              description: this.description,
+              user_id: this.getCookie('user_id'),
+            }),
+          }
+        )
+        if (response.status !== 200) {
+          alert('An error occured during update. Try again with different data')
+          this.loading = false
+          return
+        }
+        window.location.replace('../../')
+      } catch (e) {
+        alert('An error occured during update: ' + e.message)
+      }
+      this.loading = false
+    },
+    getCookie(cname) {
+      if (typeof window === 'undefined') {
+        return ''
+      }
+      const name = cname + '='
+      const decodedCookie = decodeURIComponent(document.cookie)
+      const ca = decodedCookie.split(';')
+      for (let i = 0; i < ca.length; i++) {
+        let c = ca[i]
+        while (c.charAt(0) === ' ') {
+          c = c.substring(1)
+        }
+        if (c.indexOf(name) === 0) {
+          return c.substring(name.length, c.length)
+        }
+      }
+      return ''
     },
   },
 }
