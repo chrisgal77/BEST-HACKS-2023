@@ -28,7 +28,10 @@
               czego szukasz, a może uda mi się znaleźć coś co Cię zainteresuje
               ;)
             </p>
-            <v-btn :x-large="$vuetify.breakpoint.smAndUp" class="my-3 primary"
+            <v-btn
+              :x-large="$vuetify.breakpoint.smAndUp"
+              class="my-3 primary"
+              @click="sendRequest()"
               >Wyszukaj</v-btn
             >
             <span class="mx-2 my-4"></span>
@@ -71,8 +74,15 @@ export default {
         },
       ],
       query: '',
-      interval: 10000,
+      interval: 30000,
     }
+  },
+  methods: {
+    sendRequest() {
+      window.location.replace(
+        './fastNotification?query=' + encodeURI(this.query)
+      )
+    },
   },
 }
 </script>

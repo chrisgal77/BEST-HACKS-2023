@@ -27,7 +27,7 @@
 export default {
   data() {
     return {
-      snackbar: true,
+      snackbar: false,
       text: `We use cookies to give you the best user experience.`,
     }
   },

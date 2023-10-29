@@ -10,14 +10,11 @@
         v-if="topic?.common_topic"
         class="position-absolute d-flex align-center justify-center w-100 h-100"
       >
-        <v-btn
-          size="x-large"
-          color="primary"
-          block
-          @click="snackbar = !snackbar"
-        >
-          <h1>{{ topic.common_topic }}</h1>
-        </v-btn>
+        <v-card class="mx-auto">
+          <v-card-title class="py-5 font-weight-black">{{
+            topic.common_topic
+          }}</v-card-title>
+        </v-card>
       </div>
       <v-row class="mt-5">
         <v-col>
@@ -27,7 +24,7 @@
             <h3><v-icon>mdi-account</v-icon> {{ user }}</h3>
           </v-row>
           <v-row class="mt-10" />
-          <v-row><h1>Może fajnym miejscem będzie:</h1></v-row>
+          <v-row><h1>Ciekawe miejsca na dyskusję:</h1></v-row>
           <v-row v-for="post in allPosts()" :key="post">
             <h3>
               <div v-if="post.type === 'culture'">
@@ -45,7 +42,7 @@
       </v-row>
     </v-container>
     <div v-if="allPosts().length !== 0">
-      <v-btn color="warning" x-large class="mr-5">Zacznij rozmowę</v-btn>
+      <v-btn color="warning" x-large class="mt-10" block>Zacznij rozmowę</v-btn>
     </div>
   </section>
 </template>
@@ -129,8 +126,6 @@ export default {
       return 'green darken-5'
     },
     async fetchTopic() {
-      // if (!this.form) return
-
       this.loading = true
 
       try {
@@ -156,7 +151,6 @@ export default {
         }
         const data = await response.json()
         this.topic = data
-        console.log(data)
       } catch (e) {
         alert('An error occured during data fetch: ' + e.message)
       }
@@ -164,8 +158,6 @@ export default {
       this.$forceUpdate()
     },
     async fetchPlaces() {
-      // if (!this.form) return
-
       this.loading = true
 
       try {
