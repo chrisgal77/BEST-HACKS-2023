@@ -1,0 +1,337 @@
+{
+    "museums": [
+      {
+        "name": "Muzeum Narodowe we Wrocławiu",
+        "description": "Muzeum Narodowe we Wrocławiu to bogaty zbiór sztuki od średniowiecza do czasów współczesnych.",
+        "location": "pl. Powstańców Warszawy 5, 50-153 Wrocław"
+      },
+      {
+        "name": "Panorama Racławicka we Wrocławiu",
+        "description": "Panorama Racławicka ma długość 114 metrów i wysokość 15 metrów. Przedstawia zwycięską bitwę Polaków z Rosjanami pod Racławicami.",
+        "location": "ul. Purkyniego 11, 50-155 Wrocław"
+      },
+      {
+        "name": "Centrum Historii Zajezdnia",
+        "description": "Centrum Historii Zajezdnia to miejsce nowoczesnych wystaw historycznych, projektów edukacyjnych i kulturalnych.",
+        "location": "ul. Grabiszyńska 184, 53-234 Wrocław"
+      },
+      {
+        "name": "Muzeum Pana Tadeusza",
+        "description": "Muzeum Pana Tadeusza to ważne miejsce na literackiej mapie Polski i całej Europy.",
+        "location": "ul. Pułaskiego 12, 50-019 Wrocław"
+      },
+      {
+        "name": "Pawilon Czterech Kopuł Muzeum Sztuki Współczesnej",
+        "description": "Pawilon Czterech Kopuł w Muzeum Sztuki Współczesnej zaprojektował Hans Poelzig.",
+        "location": "ul. Wystawowa 1, 51-618 Wrocław"
+      },
+      {
+        "name": "Muzeum Etnograficzne Oddział Muzeum Narodowego we Wrocławiu",
+        "description": "Muzeum Etnograficzne we Wrocławiu gromadzi obiekty z zakresu kultury materialnej, sztuki, tkanin i strojów oraz folkloru.",
+        "location": "ul. Teatralna 20, 50-052 Wrocław"
+      },
+      {
+        "name": "MovieGate – Galeria Sztuki Filmowej we Wrocławiu",
+        "description": "MovieGate to muzeum z oryginalnymi rekwizytami prosto z Hollywood.",
+        "location": "ul. Świdnicka 2, 50-067 Wrocław"
+      },
+      {
+        "name": "Muzeum Archeologiczne – Muzeum Miejskie Wrocławia",
+        "description": "Muzeum Archeologiczne we Wrocławiu powstało w 1815 r. Jego wystawa należy do jednych z najciekawszych w Polsce.",
+        "location": "ul. Cieszynskiego 9, 50-543 Wrocław"
+      },
+      {
+        "name": "MWW Muzeum Współczesne Wrocław",
+        "description": "Program wystawienniczy Muzeum Współczesne Wrocław koncentruje się na promowaniu oraz popularyzowaniu lokalnych i najnowszych zjawisk kulturowych.",
+        "location": "pl. Strzegomski 2a, 53-681 Wrocław"
+      },
+      {
+        "name": "Muzeum Architektury we Wrocławiu",
+        "description": "Jedyna instytucja muzealna w Polsce zajmująca się wyłącznie architekturą, jej historią oraz dokonaniami współczesnych projektantów.",
+        "location": "ul. Bernardyńska 5, 50-156 Wrocław"
+      },
+      {
+        "name": "Muzeum Iluzji Wrocław",
+        "description": "Muzeum Iluzji we Wrocławiu to fascynujące miejsce, które z pewnością zaskoczy was licznymi wynalazkami.",
+        "location": "ul. Świdnicka 36, 50-052 Wrocław"
+      },
+      {
+        "name": "Arsenał Miejski: Muzeum Militariów i Muzeum Archeologiczne",
+        "description": "W Muzeum Militariów prezentowane są unikatowe eksponaty broni.",
+        "location": "ul. Cieszyńska 9, 50-540 Wrocław"
+      },
+      {
+        "name": "Muzeum Gry i Komputery Minionej Ery",
+        "description": "W Muzeum Gry i Komputerów Minionej Ery w gablotach można obejrzeć stare komputery i konsole, ale nie tylko.",
+        "location": "ul. Zaułek 10, 50-242 Wrocław"
+      },
+      {
+        "name": "Muzeum Człowieka",
+        "description": "Kameralne, ale bardzo ciekawe muzeum w Instytucie Antropologii. Wyjątkowa kolekcja eksponatów naukowych.",
+        "location": "ul. Kuźnicza 19, 50-138 Wrocław"
+      },
+      {
+        "name": "Muzeum Przyrodnicze we Wrocławiu",
+        "description": "Kolekcja naukowa istniejącego od 200 lat Muzeum Przyrodniczego we Wrocławiu liczy ok. trzech milionów okazów.",
+        "location": "ul. Sienkiewicza 21, 50-335 Wrocław"
+      },
+      {
+        "name": "Muzeum Teatru we Wrocławiu",
+        "description": "Muzeum Teatru to nie tylko okazja do poznania historii wrocławskich teatrów, ale także szansa na zabawę z głosem i ciałem.",
+        "location": "ul. Świdnicka 28, 50-066 Wrocław"
+      },
+      {
+        "name": "galeria TYC ART",
+        "description": "Prezentujemy i sprzedajemy: design, szkło użytkowe i artystyczne, malarstwo.",
+        "location": "ul. Kazimierza Wielkiego 67, 50-077 Wrocław"
+      },
+      {
+        "name": "Muzeum Motoryzacji Zamek Topacz",
+        "description": "Muzeum Motoryzacji Topacz stanowi jedną z największych atrakcji, jakie znajdują się na Zamku Topacz.",
+        "location": "ul. Głogowska 160, 50-236 Wrocław"
+      },
+      {
+        "name": "Muzeum Geologiczne im. Henryka Teisseyre, Uniwersytet Wrocławski",
+        "description": "Początki Muzeum Geologicznego Uniwersytetu Wrocławskiego sięgają roku 1812.",
+        "location": "ul. Cybulskiego 30, 50-205 Wrocław"
+      },
+      {
+        "name": "Muzeum Sztuki Mieszczańskiej w Starym Ratuszu",
+        "description": "Muzeum Sztuki Mieszczańskiej w Starym Ratuszu prezentuje dokonania wrocławskich",
+        "location": "ul. Rynek 50, 50-101 Wrocław"
+      },
+      {
+        "name": "Muzeum Militariów we Wrocławiu",
+        "description": "Wrocławskie Muzeum Militariów przedstawia jedną z ciekawszych kolekcji broni i wojskowych strojów w Polsce.",
+        "location": "ul. Cieszyńska 9, 50-540 Wrocław"
+      },
+      {
+        "name": "Muzeum Farmacji we Wrocławiu – Dom Śląskiego Aptekarza",
+        "description": "Muzeum poświęcone historii farmacji, aptekarstwa i leczenia od średniowiecza po czasy współczesne.",
+        "location": "ul. św. Mikołaja 32, 50-124 Wrocław"
+      },
+      {
+        "name": "Muzeum Uniwersytetu Wrocławskiego",
+        "description": "Muzeum mieści się w głównym budynku uniwersyteckim, barokowym gmachu projektu Krzysztofa Tauscha.",
+        "location": "pl. Uniwersytecki 1, 50-137 Wrocław"
+      },
+      {
+        "name": "Arsenał Miejski Wrocław",
+        "description": "Arsenał Miejski to jeden z zabytków architektury mieszczańskiej Wrocławia.",
+        "location": "ul. św. Antoniego 10, 50-073 Wrocław"
+      },
+      {
+        "name": "Muzeum Poczty i Telekomunikacji we Wrocławiu",
+        "description": "Największą atrakcją Muzeum Poczty i Telekomunikacji są dawne pojazdy pocztowe.",
+        "location": "ul. Krupnicza 6, 50-071 Wrocław"
+      }
+    ],
+    "culture_centers": [
+        {
+          "name": "Barbara",
+          "description": "Dawniej kultowy bar szybkiej obsługi, dziś otwarta przestrzeń kulturalna w samym sercu miasta, kawiarnia i infopunkt.",
+          "location": "ul. Świdnicka 8c, 50-067 Wrocław"
+        },
+        {
+          "name": "Wrocławski Klub Anima",
+          "description": "Instytucja kulturalna z wieloletnią tradycją. Integruje wokół działań artystycznych ludzi w różnym wieku.",
+          "location": "ul. Kuźnicza 29/31, 50-138 Wrocław"
+        },
+        {
+          "name": "Ośrodek Kultury i Sztuki we Wrocławiu",
+          "description": "OKiS jest organizatorem i współproducentem ok. 1000 wydarzeń artystyczno-kulturalnych na Dolnym Śląsku i poza nim rocznie.",
+          "location": "ul. Sądowa 2, 50-383 Wrocław"
+        },
+        {
+          "name": "Ośrodek Postaw Twórczych",
+          "description": "Miejska instytucja kultury z ponad 20-letnim doświadczeniem. Pomaga zdobywać umiejętności przydatne w różnych dziedzinach sztuki.",
+          "location": "ul. Plac Solny 9, 50-062 Wrocław"
+        },
+        {
+          "name": "Dom dla Kultury OP ENHEIM",
+          "description": "Prywatna instytucja kultury Fundacja OP ENHEIM zaczęła działalność programową w odrestaurowanej barokowej kamienicy.",
+          "location": "pl. Solny 16, 50-062 Wrocław"
+        },
+        {
+          "name": "Klub Muzyki i Literatury",
+          "description": "Klub Muzyki i Literatury we Wrocławiu jest instytucją kultury miasta Wrocławia od 1991 roku.",
+          "location": "ul. Kiełbaśnicza 2, 50-110 Wrocław"
+        },
+        {
+          "name": "Ośrodek Postaw Twórczych Zamek",
+          "description": "Instytucja miejska, która oferuje przestrzeń do poszukiwania, odnajdywania i rozwijania pasji.",
+          "location": "ul. Plac Strzegomski 2, 53-681 Wrocław"
+        },
+        {
+          "name": "Klub Pod Kolumnami",
+          "description": "Miejska instytucja kultury, miejsce twórczych spotkań, międzykulturowego dialogu, realizacji własnych pasji.",
+          "location": "ul. Kollataja 16, 50-007 Wrocław"
+        },
+        {
+          "name": "Wrocławski Klub Formaty",
+          "description": "Miejska instytucja kultury, której początki sięgają 1980 r. Znana z cyklicznych imprez artystycznych.",
+          "location": "ul. Szybka 18/2, 50-208 Wrocław"
+        },
+        {
+          "name": "Ośrodek Działań Twórczych Światowid",
+          "description": "Miejska instytucja kultury na Wielkiej Wyspie. Ma ponad 50-letnią tradycję na Biskupinie.",
+          "location": "ul. Wyspa Słodowa 7a, 50-266 Wrocław"
+        },
+        {
+          "name": "Firlej",
+          "description": "Klub Firlej to miejska instytucja kultury, miejsce wielu wydarzeń artystycznych, koncertów, spektakli, pokazów i prezentacji.",
+          "location": "ul. Grabiszyńska 56, 53-504 Wrocław"
+        },
+        {
+          "name": "Centrum Kultury Agora",
+          "description": "Nowoczesna miejska instytucja kultury o 50-letniej tradycji. Popularyzuje różne rodzaje sztuki, prowadząc rozległą działalność kulturalną.",
+          "location": "ul. Pełczyńska 2, 53-625 Wrocław"
+        }
+      ],
+      "theaters": [
+        {
+          "name": "Opera Wrocławska",
+          "description": "Opera Wrocławska to międzynarodowej rangi teatr muzyczny, w którym prezentowane są najważniejsze tytuły klasyki operowej.",
+          "location": "pl. Teatralny 10, 50-051 Wrocław"
+        },
+        {
+          "name": "Teatr Muzyczny Capitol",
+          "description": "Teatr Muzyczny Capitol we Wrocławiu jest teatrem miejskim, który ma w repertuarze spektakle dla widzów dorosłych i dla dzieci.",
+          "location": "ul. Marszałka Józefa Piłsudskiego 67, 50-019 Wrocław"
+        },
+        {
+          "name": "Wrocławski Teatr Lalek",
+          "description": "Wrocławski Teatr Lalek mieści się w pięknym neobarokowym budynku. Poza trzema scenami stałymi dysponuje sezonową Sceną Letnią oraz...",
+          "location": "ul. Teatralna 10, 50-051 Wrocław"
+        },
+        {
+          "name": "Teatr Polski w podziemiu",
+          "description": "Budujemy teatr, który jest kontynuacją drogi twórczej, jaką podążał Zespół Teatru Polskiego przez dekadę 2006-2016.",
+          "location": "ul. Rzeźnicza 32, 50-128 Wrocław"
+        },
+        {
+          "name": "Muzeum Teatru we Wrocławiu",
+          "description": "Muzeum Teatru to nie tylko okazja do poznania historii wrocławskich teatrów, ale także szansa na zabawę z głosem i ciałem – narzęd...",
+          "location": "ul. Duńska 11, 54-427 Wrocław"
+        },
+        {
+          "name": "Teatr Pieśń Kozła",
+          "description": "Teatr Pieśń Kozła to jeden z najbardziej nowatorskich zespołów, wykorzystujący w swej praktyce trening aktorski i poszukujący nowy...",
+          "location": "ul. Wita Stwosza 32, 50-148 Wrocław"
+        },
+        {
+          "name": "Strefa Kultury Wrocław– Impart Centrum",
+          "description": "W sieci miejsc, prowadzonych przez Strefę Kultury Wrocław, Impart jest tą o najdłuższej tradycji.",
+          "location": "ul. Mazowiecka 17, 50-238 Wrocław"
+        },
+        {
+          "name": "Wrocławski Teatr Pantomimy im. Henryka Tomaszewskiego",
+          "description": "Wrocławski Teatr Pantomimy to wyjątkowe w skali świata przedsięwzięcia artystyczne.",
+          "location": "ul. Jatki 15, 50-125 Wrocław"
+        },
+        {
+          "name": "Teatr Polski – Scena im. Jerzego Grzegorzewskiego",
+          "description": "Teatr Polski we Wrocławiu to najstarszy wrocławski teatr dramatyczny, największy na Dolnym Śląsku i drugi co do wielkości w Polsce...",
+          "location": "ul. Gabrieli Zapolskiej 2, 50-067 Wrocław"
+        },
+        {
+          "name": "Teatr Polski - Scena na Świebodzkim",
+          "description": "Na Scenie na Świebodzkim wystawiane są głównie przedstawienia eksperymentalne i autorskie.",
+          "location": "ul. Świebodzki 1, 50-385 Wrocław"
+        },
+        {
+          "name": "Teatr Polski - Scena Kameralna",
+          "description": "Przed wojną przy ul. Świdnickiej 48 mieściło się kino Kammer-Lichtspiele. W repertuarze Sceny Kameralnej Teatru Polskiego są...",
+          "location": "ul. Gabrieli Zapolskiej 4, 50-067 Wrocław"
+        }
+      ],
+      "cinemas": [
+        {
+          "name": "Dolnośląskie Centrum Filmowe (DCF)",
+          "description": "Dolnośląskie Centrum Filmowe (DCF) to czterosalowe kino, otwarte w 2011 roku w miejsce dawnego kina „Warszawa”.",
+          "location": "ul. Piłsudskiego 64, 50-020 Wrocław"
+        },
+        {
+          "name": "Helios Magnolia Park",
+          "description": "Helios Magnolia Park znajduje się w centrum handlowo–rozrywkowo–rekreacyjnym Magnolia Park przy ul. Legnickiej.",
+          "location": "ul. Legnicka 58, 54-203 Wrocław"
+        },
+        {
+          "name": "Kino Nowe Horyzonty",
+          "description": "Największy w Polsce multipleks prezentujący kino artystyczne.",
+          "location": "ul. Kazimierza Wielkiego 19a, 50-077 Wrocław"
+        }
+      ],
+      "art_galleries": [
+        {
+          "name": "Galeria Neonów Wrocław – Galeria Neon Side",
+          "description": "Galeria neonów w podwórku przy ulicy Ruskiej 46 to zjawiskowe miejsce na mapie Wrocławia. O zmroku rozjaśnia je ponad 30 świecącyc...",
+          "location": "ul. Ruska 46, 50-079 Wrocław"
+        },
+        {
+          "name": "MovieGate – Galeria Sztuki Filmowej we Wrocławiu",
+          "description": "MovieGate to muzeum z oryginalnymi rekwizytami prosto z Hollywood. Odkryj świat filmu, nauki i historii w 60 pomieszczeniach schro...",
+          "location": "ul. Kiełbaśnicza 23/24, 50-110 Wrocław"
+        },
+        {
+          "name": "Galeria Sztuki Współczesnej Arttrakt",
+          "description": "Galeria prezentuje sztukę współczesną, ze szczególnym uwzględnieniem malarstwa. W ofercie znajdują się dzieła klasyków i młodych a...",
+          "location": "ul. Pawła Włodkowica 5, 50-072 Wrocław"
+        },
+        {
+          "name": "Galeria Entropia",
+          "description": "Powstała w 1988 r. Pod auspicjami miasta od 1998 r. Oprócz działalności wystawienniczej jest miejscem różnorodnych inicjatyw twórc...",
+          "location": "ul. Ruska 47/48, 50-079 Wrocław"
+        },
+        {
+          "name": "BWA Wrocław Główny",
+          "description": "To nowe miejsce na wrocławskiej mapie sztuki współczesnej.",
+          "location": "ul. Powstańców Śląskich 7, 53-333 Wrocław"
+        },
+        {
+          "name": "Vivid Gallery",
+          "description": "Wnętrze galerii zaprojektowane z myślą o nowoczesnej prezentacji i sprzedaży dzieł sztuki jest eleganckie i dyskretne",
+          "location": "ul. Widok 8/10, 50-052 Wrocław"
+        },
+        {
+          "name": "Strefa Kultury Wrocław– Impart Centrum",
+          "description": "W sieci miejsc, prowadzonych przez Strefę Kultury Wrocław, Impart jest tą o najdłuższej tradycji.",
+          "location": "ul. Mazowiecka 17, 50-238 Wrocław"
+        },
+        {
+          "name": "BWA Awangarda Wrocław",
+          "description": "Awangarda to największa galeria w strukturze wrocławskiego Biura Wystaw Artystycznych, w których prezentowana jest przede wszystki..",
+          "location": "ul. Wita Stwosza 32, 50-148 Wrocław"
+        },
+        {
+          "name": "Centrum Sztuki WRO - WRO Art Center",
+          "description": "Pierwsza polska instytucja, działająca na przecięciu sztuki współczesnej, mediów i komunikacji.",
+          "location": "ul. Widok 7, 50-052 Wrocław"
+        },
+        {
+          "name": "Galeria Dizajn BWA Wrocław",
+          "description": "Galeria upowszechnia środowiska twórcze związane z tematyką projektowania.",
+          "location": "ul. Świdnicka 2-4, 50-064 Wrocław"
+        },
+        {
+          "name": "Galeria Miejska",
+          "description": "Powołana przez miasto Wrocław w 1991 r. do prezentownia polskiej i międzynarodowej sztuki. Promuje za granicą polskich, z naciski..",
+          "location": "pl. Jana Pawła II 1, 50-043 Wrocław"
+        },
+        {
+          "name": "Galeria M Odwach",
+          "description": "Galeria M Odwach - w neorenesansowym obiekcie przy ulicy Świdnickiej, po dawnych umocnieniach miejskich, działa galeria polskiej ..",
+          "location": "ul. Świdnicka 48, 50-082 Wrocław"
+        },
+        {
+          "name": "galeria SIC! BWA Wrocław",
+          "description": "Interesuje nas szkło i ceramika w ujęciu historycznym, geopolitycznym i społecznym. Zajmują nas zagadnienia typu transparentność, ..",
+          "location": "ul. Wita Stwosza 32, 50-148 Wrocław"
+        },
+        {
+          "name": "Sztuka Na Miejscu – przestrzeń wystawiennicza",
+          "description": "W kamienicy przy Łaciarskiej 4 we Wrocławiu 2 lutego zaczęła działalność „Sztuka na miejscu”.",
+          "location": "ul. Łaciarska 4, 50-125 Wrocław"
+        }
+      ]
+  }

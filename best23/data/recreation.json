@@ -1,0 +1,319 @@
+{
+    "patio": [
+      {
+        "name": "Wirydarz Muzeum Architektury",
+        "description": "Klimatyczny wirydarz w Muzeum Architektury to pozostałość pobernardyńskiego klasztoru, który powstał przy gotyckim kościele w drug..",
+        "location": "ul. Bernardyńska 5, 50-156 Wrocław"
+      },
+      {
+        "name": "Wirydarz Instytutu Filologicznego",
+        "description": "W latach 90. rozpoczął się kolejny remont siedziby Wydziału Filologicznego, jego ostatnim etapem było odnowienie dawnego wirydarza..",
+        "location": "ul. Kuźnicza 22, 50-138 Wrocław"
+      },
+      {
+        "name": "Wirydarz Zakładu Narodowego im. Ossolińskich",
+        "description": "Jedno z najładniejszych miejsc w centrum Wrocławia. Żelazny punkt wycieczek, ulubione miejsce odpoczynku wielu wrocławian.",
+        "location": "pl. Podwale 23, 50-040 Wrocław"
+      },
+      {
+        "name": "Dziedziniec Arsenału Miejskiego",
+        "description": "To urokliwe miejsce, w którym z każdego kąta tchnie historią. Nie tylko ze względu na przeszłość Arsenału.",
+        "location": "ul. Cieszyńskiego 9, 50-111 Wrocław"
+      }
+    ],
+    "parks": [
+        {
+          "name": "Ogród Japoński we Wrocławiu",
+          "description": "Oryginalne rośliny i niezwykła aranżacja przestrzeni. Ogród Japoński to jedno z najpopularniejszych miejsc spacerów i relaksu tury..",
+          "location": "ul. Adama Mickiewicza 1, Wrocław, Polska"
+        },
+        {
+          "name": "Park Szczytnicki we Wrocławiu",
+          "description": "Park Szczytnicki we Wrocławiu to największy park w stolicy Dolnego Śląska i idealne miejsce na spacer, piknik, zabawę dla dzieci c..",
+          "location": "ul. Jana Ewangelisty Purkyniego 11, Wrocław, Polska"
+        },
+        {
+          "name": "ZOO Wrocław",
+          "description": "ZOO Wrocław to największy ogród zoologiczny w Polsce. Żyje tu ponad 12 tysięcy zwierząt reprezentujących 1100 gatunków – większość..",
+          "location": "ul. Wrońska 1-5, Wrocław, Polska"
+        },
+        {
+          "name": "Ogród Botaniczny Uniwersytetu Wrocławskiego",
+          "description": "Ogród Botaniczny we Wrocławiu powstał w 1811 roku. Dzisiaj można tu podziwiać prawie 12 tysięcy roślin. Dla ogrodników działa tu s..",
+          "location": "ul. Sienkiewicza 23, Wrocław, Polska"
+        },
+        {
+          "name": "Wyspa Słodowa we Wrocławiu",
+          "description": "Największa z wysp na Odrze, czyli Wyspa Słodowa, jest popularnym miejscem spotkań, spacerów i koncertów nie tylko studentów, ale r..",
+          "location": "Wyspa Słodowa, Wrocław, Polska"
+        },
+        {
+          "name": "Park Południowy",
+          "description": "Park Południowy to dzisiaj ulubionych ulubionych miejsc relaksu mieszkańców Krzyków, którzy chętnie korzystają z tras spacerowych...",
+          "location": "ul. Południowa, Wrocław, Polska"
+        },
+        {
+          "name": "Park Juliusza Słowackiego",
+          "description": "Park Słowackiego to z jednej strony romantyczna poezja Słowackiego, z drugiej – Panorama Racławicka i Muzeum Narodowe. Minimum pr..",
+          "location": "pl. Powstańców Warszawy 13, Wrocław, Polska"
+        },
+        {
+          "name": "Karuzela w Ogrodzie Staromiejskim",
+          "description": "Przepiękna, klasyczna karuzela typu francuskiego, stylizowana na XIX-wieczną, znajduje się nieopodal placu zabaw dla dzieci.",
+          "location": "pl. Nowy Targ, Wrocław, Polska"
+        },
+        {
+          "name": "Ogród Staromiejski",
+          "description": "Inspiracją dla projektantów półtorahektarowego Ogrodu Śródmiejskiego były kopenhaskie XIX-wieczne Ogrody Tivoli.",
+          "location": "pl. Nowy Targ, Wrocław, Polska"
+        },
+        {
+          "name": "Wyspa Bielarska",
+          "description": "Jedna z niewielkich wysepek w obrębie wrocławskiego Starego Miasta, sąsiadująca z Wyspą Słodową.",
+          "location": "Wyspa Bielarska, Wrocław, Polska"
+        },
+        {
+          "name": "Ogród przy Papieskim Wydziale Teologicznym",
+          "description": "Schowany za olbrzymim gmachem Papieskiego Wydziały Teologicznego to największy, poza Ogrodem Botanicznym, dostępny ogród na Ostrow..",
+          "location": "ul. Kuźnicza 44, Wrocław, Polska"
+        },
+        {
+          "name": "Ogród Ossolineum",
+          "description": "Przed II wojną plac był boiskiem przy sąsiadującym z nim gimnazjum. Dzisiaj to częste miejsce wytchnienia turystów zwiedzających w..",
+          "location": "pl. Maxa Borna 1, Wrocław, Polska"
+        },
+        {
+          "name": "Zamek Topacz",
+          "description": "Zamek Topacz to kompleks pałacowo-parkowy z XIV-wieczną historią. Obecnie",
+          "location": "Zamek Topacz, Ślężna, Polska"
+        }
+      ],
+      "odra": [
+        {
+          "name": "Ogród Japoński we Wrocławiu",
+          "description": "Oryginalne rośliny i niezwykła aranżacja przestrzeni. Ogród Japoński to jedno z najpopularniejszych miejsc spacerów i relaksu tury..",
+          "location": "ul. Adama Mickiewicza 1, Wrocław, Polska"
+        },
+        {
+          "name": "Park Szczytnicki we Wrocławiu",
+          "description": "Park Szczytnicki we Wrocławiu to największy park w stolicy Dolnego Śląska i idealne miejsce na spacer, piknik, zabawę dla dzieci c..",
+          "location": "ul. Jana Ewangelisty Purkyniego 11, Wrocław, Polska"
+        },
+        {
+          "name": "ZOO Wrocław",
+          "description": "ZOO Wrocław to największy ogród zoologiczny w Polsce. Żyje tu ponad 12 tysięcy zwierząt reprezentujących 1100 gatunków – większość..",
+          "location": "ul. Wrońska 1-5, Wrocław, Polska"
+        },
+        {
+          "name": "Ogród Botaniczny Uniwersytetu Wrocławskiego",
+          "description": "Ogród Botaniczny we Wrocławiu powstał w 1811 roku. Dzisiaj można tu podziwiać prawie 12 tysięcy roślin. Dla ogrodników działa tu s..",
+          "location": "ul. Sienkiewicza 23, Wrocław, Polska"
+        },
+        {
+          "name": "Wyspa Słodowa we Wrocławiu",
+          "description": "Największa z wysp na Odrze, czyli Wyspa Słodowa, jest popularnym miejscem spotkań, spacerów i koncertów nie tylko studentów, ale r..",
+          "location": "Wyspa Słodowa, Wrocław, Polska"
+        },
+        {
+          "name": "Park Południowy",
+          "description": "Park Południowy to dzisiaj ulubionych ulubionych miejsc relaksu mieszkańców Krzyków, którzy chętnie korzystają z tras spacerowych...",
+          "location": "ul. Południowa, Wrocław, Polska"
+        },
+        {
+          "name": "Park Juliusza Słowackiego",
+          "description": "Park Słowackiego to z jednej strony romantyczna poezja Słowackiego, z drugiej – Panorama Racławicka i Muzeum Narodowe. Minimum pr..",
+          "location": "pl. Powstańców Warszawy 13, Wrocław, Polska"
+        },
+        {
+          "name": "Karuzela w Ogrodzie Staromiejskim",
+          "description": "Przepiękna, klasyczna karuzela typu francuskiego, stylizowana na XIX-wieczną, znajduje się nieopodal placu zabaw dla dzieci.",
+          "location": "pl. Nowy Targ, Wrocław, Polska"
+        },
+        {
+          "name": "Ogród Staromiejski",
+          "description": "Inspiracją dla projektantów półtorahektarowego Ogrodu Śródmiejskiego były kopenhaskie XIX-wieczne Ogrody Tivoli.",
+          "location": "pl. Nowy Targ, Wrocław, Polska"
+        },
+        {
+          "name": "Wyspa Bielarska",
+          "description": "Jedna z niewielkich wysepek w obrębie wrocławskiego Starego Miasta, sąsiadująca z Wyspą Słodową.",
+          "location": "Wyspa Bielarska, Wrocław, Polska"
+        },
+        {
+          "name": "Ogród przy Papieskim Wydziale Teologicznym",
+          "description": "Schowany za olbrzymim gmachem Papieskiego Wydziały Teologicznego to największy, poza Ogrodem Botanicznym, dostępny ogród na Ostrow..",
+          "location": "ul. Kuźnicza 44, Wrocław, Polska"
+        },
+        {
+          "name": "Ogród Ossolineum",
+          "description": "Przed II wojną plac był boiskiem przy sąsiadującym z nim gimnazjum. Dzisiaj to częste miejsce wytchnienia turystów zwiedzających w..",
+          "location": "pl. Maxa Borna 1, Wrocław, Polska"
+        },
+        {
+          "name": "Zamek Topacz",
+          "description": "Zamek Topacz to kompleks pałacowo-parkowy z XIV-wieczną historią. Obecnie",
+          "location": "Zamek Topacz, Ślężna, Polska"
+        },
+        {
+            "name": "Wieża Ciśnień przy Na Grobli",
+            "description": "Królowa wrocławskich wież ciśnień. Licząca 40 metrów budowla jest perłą architektury przemysłowej",
+            "location": "ul. Na Grobli, Wrocław, Polska"
+          },
+          {
+            "name": "Dom na wodzie - wybrzeże Słowackiego",
+            "description": "Budowa pierwszego w Polsce domu na wodzie trwała osiem lat, zaangażowanych w nią było około dwustu osób.",
+            "location": "Wybrzeże Słowackiego, Wrocław, Polska"
+          },
+          {
+            "name": "Nawa – plenerowa rzeźba na Wyspie Daliowej",
+            "description": "Zjawiskowa instalacja Oskara Zięty to kilkadziesiąt stalowych lśniących łuków. Dzieło wrocławianina jest doceniane przez specjalis..",
+            "location": "Wyspa Daliowa, Wrocław, Polska"
+          },
+          {
+            "name": "Rejsy luksusową motorówką po Odrze",
+            "description": "Poznaj Odrę z pokładu ekskluzywnej i najmocniejszej motorówki we Wrocławiu.",
+            "location": "Odra, Wrocław, Polska"
+          },
+          {
+            "name": "OpatoVice Beach Bar",
+            "description": "Kameralny beachbar znajduje się w doskonałym miejscu - na skraju Wielkiej Wyspy, przy jazie opatowickim, tuż przy wejściu na Wyspę..",
+            "location": "Wyspa Opatowicka, Wrocław, Polska"
+          },
+          {
+            "name": "Forma Płynna Beach Bar Plaża miejska Wybrzeże Wyspiańskiego",
+            "description": "Zamiast piasku, zielona wypielęgnowana trwa. Zamiast parasoli - korony drzew mini-gaju. W środku miasta nad Odrą działa klimat..",
+            "location": "Wybrzeże Wyspiańskiego, Wrocław, Polska"
+          },
+          {
+            "name": "Stara Odra Beach Bar Plaża miejska",
+            "description": "Gorący piasek, wielkie parasole, dobrze wyposażony bar i pogodna muzyka - Stara Odra Beach Bar przy Mostach Trzebnickich, zaprasza..",
+            "location": "Plaża Stara Odra, Wrocław, Polska"
+          },
+          {
+            "name": "HotSpot Beach Bar – Plaża miejska",
+            "description": "HotSpot Beach Bar jest największą sztuczną plażą na Dolnym Śląsku – ma aż 15 tys. metrów kwadratowych. To świetne miejsce na relak..",
+            "location": "Plaża miejska, Wrocław, Polska"
+          },
+          {
+            "name": "Statek Tara. Rejsy po Odrze",
+            "description": "Rejs statkiem Tara to atrakcyjna forma spędzenia czasu we Wrocławiu.",
+            "location": "Odra, Wrocław, Polska"
+          },
+          {
+            "name": "Zatoka Gondoli",
+            "description": "W Zatoce Gondoli można odpocząć w tawernie na barce, a także wypożyczyć stateczek, łódkę lub kajak i ruszyć na Odrę.",
+            "location": "Wyspa Słodowa, Wrocław, Polska"
+          },
+          {
+            "name": "ZaZoo Beach Bar Plaża miejska",
+            "description": "Doskonała miejscówka na plażing w środku miasta. ZaZoo Beach Bar ma wiernych bywalców i ciągle przybywa nowych miłośników relaksu ..",
+            "location": "Plaża miejska, Wrocław, Polska"
+          },
+          {
+            "name": "Bulwar Marii i Lecha Kaczyńskich",
+            "description": "Dobry punkt z widokiem na wrocławski Manhattan, monumentalną Bibliotekę Uniwersytecką i most Grunwaldzki.",
+            "location": "Bulwar Marii i Lecha Kaczyńskich, Wrocław, Polska"
+          },
+          {
+            "name": "Wyspa Bielarska",
+            "description": "Jedna z niewielkich wysepek w obrębie wrocławskiego Starego Miasta, sąsiadująca z Wyspą Słodową.",
+            "location": "Wyspa Bielarska, Wrocław, Polska"
+          },
+          {
+            "name": "Bulwar Politechniki Wrocławskiej",
+            "description": "Miejscówka nad Odrą szybko została oswojona przez wrocławian. Odwiedzają je wszyscy, co lubią odpoczywać w ładnych okolicznościach..",
+            "location": "Bulwar Politechniki Wrocławskiej, Wrocław, Polska"
+          },
+          {
+            "name": "Bulwar ks. Zienkiewicza",
+            "description": "Położony jest wzdłuż północnego brzegu Odry, z widokiem na wyspy odrzańskie, między mostem Młyńskim a mostem Tumskim.",
+            "location": "Bulwar ks. Zienkiewicza, Wrocław, Polska"
+          },
+          {
+            "name": "Most Rędziński",
+            "description": "To największa przeprawa w Polsce - ma 1742 metry długości, a pylon, na którym most jest podwieszony, jest wysoki na 122 metry.",
+            "location": "Most Rędziński, Wrocław, Polska"
+          },
+          {
+            "name": "Przystań Miłości",
+            "description": "Kameralna przystań przy moście Tumskim.",
+            "location": "Most Tumski, Wrocław, Polska"
+          },
+          {
+            "name": "Przystań na Ostrowie",
+            "description": "Przystań w pobliżu mostu Pokoju.",
+            "location": "Most Pokoju, Wrocław, Polska"
+          },
+          {
+            "name": "Przystań Cypel",
+            "description": "Kameralna przystań przy Wyspie Słodowej.",
+            "location": "Wyspa Słodowa, Wrocław, Polska"
+          },
+          {
+            "name": "Statek Gondola – rejsy po Odrze",
+            "description": "Wieczory panieńskie rejsy widokowe. Trasa dziewięciu mostów wokół zabytków Starego",
+            "location": "Odra, Wrocław, Polska"
+          },
+          {
+            "name": "Wodniacy",
+            "description": "Misją Wodniaków to rozkwit kultury wodnej we Wrocławiu oraz profesjonalizacja lokalnego rynku.",
+            "location": "Wrocław, Polska"
+          },
+          {
+            "name": "Przystań Włostowica",
+            "description": "Przystań przy malowniczym bulwarze Włostowica między mostem Piaskowym a mostem Tumskim",
+            "location": "Bulwar Włostowica, Wrocław, Polska"
+          },
+          {
+            "name": "Przystań Tumska",
+            "description": "Przystań ma bulwarze Włostowica w pobliżu mostu Tumskiego i wejścia na Ostrów Tumski",
+            "location": "Bulwar Włostowica, Wrocław, Polska"
+          },
+          {
+            "name": "Przystań Kapitańska",
+            "description": "Przystań w centrum Wrocławia, na bulwarze Włostowica",
+            "location": "Bulwar Włostowica, Wrocław, Polska"
+          },
+          {
+            "name": "Marina Topacz",
+            "description": "Marina-przystań dla jachtów motorowych w samym centrum Wrocławia",
+            "location": "Wrocław, Polska"
+          },
+          {
+            "name": "Przystań Kardynalska",
+            "description": "Popularne miejsce na start i finisz rejsu statkiem wycieczkowym po wrocławskim węźle wodnym",
+            "location": "Wrocław, Polska"
+          },
+          {
+            "name": "Przystań Hala Targowa",
+            "description": "Kameralna przystań w pobliżu Hali Targowej",
+            "location": "Wrocław, Polska"
+          },
+          {
+            "name": "Przystań Piaskowa",
+            "description": "Przystań w pobliżu mostu Piaskowego",
+            "location": "Wrocław, Polska"
+          },
+          {
+            "name": "Przystań Amfiteatralna",
+            "description": "Przystań przy bulwarze Xawerego Dunikowskiego",
+            "location": "Bulwar Xawerego Dunikowskiego, Wrocław, Polska"
+          },
+          {
+            "name": "Przystań Zwierzyniecka: wypożyczalnia kajaków, rowerów wodnych",
+            "description": "Wizyta w wypożyczalni kajaków, łódek i rowerów wodnych to dobre rozpoczęcie miłego dnia. Przejażdżka kanałem Odry to relaks w najc..",
+            "location": "Wrocław, Polska"
+          },
+          {
+            "name": "Statek Viking",
+            "description": "Viking to wykonany z drewna stylizowany na starożytną galerę klimatyczny i stylowy statek pasażerski pływający po Odrze po Śródmie..",
+            "location": "Odra, Wrocław, Polska"
+          },
+          {
+            "name": "Statki – rejsy po Odrze",
+            "description": "Rejsy statkami i jachtami po Odrze to ciekawy sposób na spędzenie czasu i poznanie",
+            "location": "Odra, Wrocław, Polska"
+          }
+        ]
+  }
+  

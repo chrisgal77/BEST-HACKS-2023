@@ -1,0 +1,315 @@
+{
+    "monuments": [
+      {
+        "name": "Muzeum Narodowe we Wrocławiu",
+        "description": "Muzeum Narodowe we Wrocławiu to bogaty zbiór sztuki od średniowiecza do czasów współczesnych. Do obejrzenia są dzieła Matejki czy ..",
+        "location": "pl. Powstańców Warszawy 5, Wrocław, Polska"
+      },
+      {
+        "name": "Ostrów Tumski we Wrocławiu",
+        "description": "Ostrów Tumski we Wrocławiu to najstarsza, zabytkowa część miasta. Jest to popularne miejsce wśród zakochanych, spacerowiczów i tur..",
+        "location": "Ostrów Tumski, Wrocław, Polska"
+      },
+      {
+        "name": "Dworzec Główny PKP Wrocław",
+        "description": "Wrocław Główny to jeden z najładniejszych dworców kolejowych w Polsce. O jego oryginalności decydują: monumentalna bryła, przestro..",
+        "location": "pl. Kolejowy 1, Wrocław, Polska"
+      },
+      {
+        "name": "Pergola we Wrocławiu",
+        "description": "Pergola przy Hali Stulecia we Wrocławiu powstała w 1913 roku. To popularne miejsce spacerów czy koncertów. W jej centrum znajduje ..",
+        "location": "ul. Wystawowa 1, Wrocław, Polska"
+      },
+      {
+        "name": "Stary Ratusz we Wrocławiu",
+        "description": "Stary Ratusz we Wrocławiu jest nie tylko historyczną siedzibą władz miasta, ale także skarbem architektury na skalę europejską...",
+        "location": "Rynek, Wrocław, Polska"
+      },
+      {
+        "name": "Panorama Racławicka we Wrocławiu",
+        "description": "Panorama Racławicka ma długość 114 metrów i wysokość 15 metrów. Przedstawia zwycięską bitwę Polaków z Rosjanami pod Racławicami w ..",
+        "location": "ul. Purkyniego 11, Wrocław, Polska"
+      },
+      {
+        "name": "Wieża Matematyczna Uniwersytetu Wrocławskiego",
+        "description": "Wieża Matematyczna to część gmachu Uniwersytetu Wrocławskiego. Jej taras znajduje się na wysokości 42 m. Można z niego zobaczyć Wy..",
+        "location": "ul. Plac Grunwaldzki 2, Wrocław, Polska"
+      },
+      {
+        "name": "Hala Stulecia we Wrocławiu",
+        "description": "Hala Stulecia we Wrocławiu to jedna z największych żelbetowych budowli w historii. Obiekt wpisany jest na Listę Światowego Dziedzi..",
+        "location": "ul. Wystawowa 1, Wrocław, Polska"
+      },
+      {
+        "name": "Archikatedra pw. św. Jana Chrzciciela",
+        "description": "Archikatedra pw. św. Jana Chrzciciela we Wrocławiu nazywana jest matką kościołów śląskich. To wyjątkowej klasy zabytek gotyckiej a..",
+        "location": "ul. Katedralna 8, Wrocław, Polska"
+      },
+      {
+        "name": "Dzielnica Czterech Wyznań we Wrocławiu",
+        "description": "Wrocławska Dzielnica Czterech Wyznań symbolizuje harmonijne współistnienie różnych kultur, ale jest też miejscem spotkań, imprez i..",
+        "location": "Dzielnica Czterech Wyznań, Wrocław, Polska"
+      },
+      {
+        "name": "Most Tumski",
+        "description": "Most Tumski łączy wyspę Piasek i Ostrów Tumski. Znany jest jako most Zakochanych lub most Miłości. Zakochane pary przypinały kiedy..",
+        "location": "Most Tumski, Wrocław, Polska"
+      },
+      {
+        "name": "Stary cmentarz żydowski przy Ślężnej – Muzeum Sztuki Cmentarnej",
+        "description": "Na cmentarzu żydowskim przy ul. Ślężnej we Wrocławiu znajdują się groby wielu wrocławskich osobistości – lekarzy, naukowców, dział..",
+        "location": "ul. Ślężna, Wrocław, Polska"
+      },
+      {
+        "name": "Pawilon Czterech Kopuł Muzeum Sztuki Współczesnej",
+        "description": "Pawilon Czterech Kopuł w Muzeum Sztuki Współczesnej zaprojektował Hans Poelzig. Wybudowany został w latach 1912-1913 w nowoczesnej..",
+        "location": "ul. Wystawowa 10, Wrocław, Polska"
+      },
+      {
+        "name": "Kościół polskokatolicki pw. św. Marii Magdaleny",
+        "description": "Katedra św. Marii Magdaleny to najbardziej rozpoznawalna wrocławska świątynia. Mostek Pokutnic na szczycie katedry to świetny ..",
+        "location": "pl. Jana Pawła II 1, Wrocław, Polska"
+      },
+      {
+        "name": "Aula Leopoldina – Muzeum Uniwersytetu Wrocławskiego",
+        "description": "Aula Leopoldina to najbardziej atrakcyjna część gmachu Uniwersytetu Wrocławskiego. Odbywają się tu najważniejsze uroczystości uniw..",
+        "location": "pl. Uniwersytecki 1, Wrocław, Polska"
+      },
+      {
+        "name": "Kaplica Hochberga w kościele św. Wincentego i św. Jakuba",
+        "description": "Kaplica Hochberga w kościele pw. św. Wincentego i św. Jakuba przy pl. Nankiera została wybudowana w latach 1723-1728. To perła bar..",
+        "location": "pl. Nankiera 15, Wrocław, Polska"
+      },
+      {
+        "name": "Opera Wrocławska",
+        "description": "Opera Wrocławska to międzynarodowej rangi teatr muzyczny, w którym prezentowane są najważniejsze tytuły klasyki operowej w wyjątko..",
+        "location": "ul. Świdnicka 35, Wrocław, Polska"
+      },
+      {
+        "name": "Muzeum Architektury we Wrocławiu",
+        "description": "Jedyna instytucja muzealna w Polsce zajmująca się wyłącznie architekturą, jej historią oraz dokonaniami współczesnych projektantów..",
+        "location": "ul. Bernardyńska 5, Wrocław, Polska"
+      },
+      {
+        "name": "Regionalna Izba Pamięci w Kątach Wrocławskich",
+        "description": "Staramy się to osiągnąć udostępniając zgromadzone zbiory w Regionalnej Izbie Pamięci, która mieści się na pierwszym piętrze budynk..",
+        "location": "pl. Wolności 5, Kąty Wrocławskie, Polska"
+      },
+      {
+        "name": "Pałac rodziny Wallenberg-Pachaly",
+        "description": "Rezydencja przy ulicy Szajnochy to – obok pałacu Hatzfeldów, jedyny obiekt we Wrocławiu,",
+        "location": "ul. Szajnochy 9, Wrocław, Polska"
+      },
+      {
+        "name": "Zamek Piastów Śląskich na Ostrowie Tumskim",
+        "description": "W podziemiach klasztoru Zgromadzenia Sióstr de Notre Dame można oglądać pozostałości zamku książęcego z XIII wieku, kiedy na Śląs..",
+        "location": "Ostrów Tumski, Wrocław, Polska"
+      },
+      {
+        "name": "Żywy Pomnik pt. Arena",
+        "description": "Jego autorem jest Jerzy Bereś. To to odwrócone do góry korzeniami drzewo, wkopane na środku okrągłego placu.",
+        "location": "pl. św. Macieja 21, Wrocław, Polska"
+      },
+      {
+        "name": "Drewniany kościół w parku Szczytnickim",
+        "description": "Drewniany kościół pw. św. Jana Nepomucena jest jedną z wizytówek zabytkowego Parku Szczytnickiego.",
+        "location": "ul. Sudecka 102, Wrocław, Polska"
+      },
+      {
+        "name": "Zegar Kluskowy",
+        "description": "Zegar wrócił na wieżę katedry prawosławnej przy ul. św. Mikołaja we Wrocławiu w 2014 r.",
+        "location": "ul. św. Mikołaja 24, Wrocław, Polska"
+      },
+      {
+        "name": "Zabytkowa Linia Tramwajowa we Wrocławiu",
+        "description": "Zabytkowe wrocławskie tramwaje kursują po mieście od lat. To dobra okazja na poznanie Wrocławia z innej perspektywy. Oto ceny bile..",
+        "location": "Wrocław, Polska"
+      },
+      {
+        "name": "Bastion Ceglarski / Wzgórze Polskie",
+        "description": "W 1807 roku mimo decyzji władz napoleońskich o rozbiórce umocnień, ocalał, ale stracił charakter militarny. Ze Wzgórza doskonale w..",
+        "location": "pl. Wincentego Pola, Wrocław, Polska"
+      },
+      {
+        "name": "Osiedle WuWA",
+        "description": "Eksperymentalne osiedla powstały m.in. w Pradze, Stuttgarcie, Brnie i Zurychu, ale to wrocławska WUWA uważana z najciekawszych mod..",
+        "location": "ul. Krucza 72, Wrocław, Polska"
+      },
+      {
+        "name": "Dziedziniec Instytutu Antropologii",
+        "description": "Dziedziniec najstarszego gmachów wrocławskiego uniwersytetu jest niewielki, otoczony arkadami. Można go odwiedzić w tygodniu do go..",
+        "location": "ul. Dawida 1, Wrocław, Polska"
+      },
+      {
+        "name": "Sobór Narodzenia Przenajświętszej Bogarodzicy",
+        "description": "XV-wieczna świątynia powstała w miejscu drewnianej kaplicy cmentarnej. Obiekt wpisano do rejestru zabytków. Wnętrze było wielokrot..",
+        "location": "ul. Sokolnicza 7, Wrocław, Polska"
+      },
+      {
+        "name": "Kościół pw. św. Antoniego z Padwy",
+        "description": "To najstarszy we Wrocławiu kościół barokowy, w którym częściowo zachowało się jeszcze wyposażenie z początku XVIII wieku...",
+        "location": "pl. Solny 4, Wrocław, Polska"
+      },
+      {
+        "name": "Hotel Monopol",
+        "description": "Ponadstuletni Monopol to jeden z najpopularniejszych hoteli we Wrocławiu. W zabytkowym obiekcie często zatrzymują się gwiazdy kina..",
+        "location": "ul. Heleny Modrzejewskiej 2, Wrocław, Polska"
+      },
+      {
+        "name": "Bazylika mniejsza pw. św. Elżbiety",
+        "description": "Kościół pw. Św. Elżbiety to jedna z najbardziej charakterystycznych budowli Wrocławia. Położony w pobliżu Rynku dominuje nad okoli..",
+        "location": "pl. św. Elżbiety 1, Wrocław, Polska"
+      },
+      {
+        "name": "Zakład Narodowy im. Ossolińskich we Wrocławiu",
+        "description": "Jedna z najstarszych i największych bibliotek naukowych w kraju, prowadzi działalność naukową i wydawniczą.",
+        "location": "ul. Szewska 37, Wrocław, Polska"
+      },
+      {
+        "name": "Muzeum Sztuki Mieszczańskiej w Starym Ratuszu",
+        "description": "Muzeum Sztuki Mieszczańskiej w Starym Ratuszu prezentuje dokonania wrocławskich artystów i rzemieślników od czasów najdawniejszych..",
+        "location": "Rynek 50, Wrocław, Polska"
+      },
+      {
+        "name": "Baszta Niedźwiadka",
+        "description": "Baszta i fragment przylegających do niej murów obronnych to elementy średniowiecznego systemu fortyfikacyjnego.",
+        "location": "ul. Świdnicka 28, Wrocław, Polska"
+      },
+      {
+        "name": "Muzeum Farmacji we Wrocławiu – Dom Śląskiego Aptekarza",
+        "description": "Muzeum poświęcone historii farmacji, aptekarstwa i leczenia od średniowiecza po czasy współczesne.",
+        "location": "ul. św. Mikołaja 19, Wrocław, Polska"
+      },
+      {
+        "name": "Kościół uniwersytecki pw. Najświętszego Imienia Jezus",
+        "description": "Wczesnobarokowy kościół wraz z przyległym uniwersytetem należy do arcydzieł budownictwa, które na Śląsku stworzyli i zostawili dla..",
+        "location": "pl. Uniwersytecki 1, Wrocław, Polska"
+      },
+      {
+        "name": "Oratorium Marianum",
+        "description": "Barokowa sala muzyczna to jedno z reprezentacyjnych wnętrz w gmachu głównym Uniwersytetu Wrocławskiego.",
+        "location": "pl. Uniwersytecki 1, Wrocław, Polska"
+      },
+      {
+        "name": "Galeria M Odwach",
+        "description": "Galeria M Odwach - w neorenesansowym obiekcie przy ulicy Świdnickiej, po dawnych umocnieniach miejskich, działa galeria polskiej ..",
+        "location": "ul. Świdnicka 57, Wrocław, Polska"
+      },
+      {
+        "name": "Kościół pw. Opatrzności Bożej",
+        "description": "W 1947 r. kościół przekazano wrocławskiej parafii ewangelicko-augsburskiej i konsekrowano pod",
+        "location": "pl. Orląt Lwowskich 24, Wrocław, Polska"
+      }
+    ],
+    "churches": [
+        {
+          "name": "Mostek Pokutnic w katedrze św. Marii Magdaleny",
+          "description": "Mostek Pokutnic to kładka łącząca wieże kościoła św. Marii Magdaleny. Znajduje się na wysokości 45 m. To jeden z najciekawszych punktów widokowych we Wrocławiu.",
+          "address": "Plac Katedralny 18, 50-329 Wrocław, Polska"
+        },
+        {
+          "name": "Archikatedra pw. św. Jana Chrzciciela",
+          "description": "Archikatedra pw. św. Jana Chrzciciela we Wrocławiu nazywana jest matką kościołów śląskich. To wyjątkowej klasy zabytek gotyckiej architektury sakralnej.",
+          "address": "Plac Katedralny 18, 50-329 Wrocław, Polska"
+        },
+        {
+          "name": "Synagoga pod Białym Bocianem",
+          "description": "Synagoga pod Białym Bocianem to centrum wydarzeń organizowanych przez społeczność wrocławskich Żydów. To także klasycystyczny zabytek związany z historią społeczności żydowskiej we Wrocławiu.",
+          "address": "Ul. Pawła Włodkowica 7, 50-072 Wrocław, Polska"
+        },
+        {
+          "name": "Kościół polskokatolicki pw. św. Marii Magdaleny",
+          "description": "Kościół pw. św. Marii Magdaleny to najbardziej rozpoznawalna wrocławska świątynia. Mostek Pokutnic na szczycie katedry to świetny punkt widokowy na panoramę miasta.",
+          "address": "Plac Katedralny 18, 50-329 Wrocław, Polska"
+        },
+        {
+          "name": "Kaplica Hochberga w kościele św. Wincentego i św. Jakuba",
+          "description": "Kaplica Hochberga w kościele pw. św. Wincentego i św. Jakuba przy pl. Nankiera została wybudowana w latach 1723-1728. To perła barokowej architektury sakralnej.",
+          "address": "Pl. Nankiera 17, 50-140 Wrocław, Polska"
+        },
+        {
+          "name": "Drewniany kościół w parku Szczytnickim",
+          "description": "Drewniany kościół pw. św. Jana Nepomucena jest jedną z wizytówek zabytkowego Parku Szczytnickiego. To unikalna drewniana świątynia w otoczeniu pięknego parku.",
+          "address": "ul. Mickiewicza 21, 51-613 Wrocław, Polska"
+        },
+        {
+          "name": "Kościół pw. św. Krzysztofa",
+          "description": "Świątynia zbudowana jest w stylu późnogotyckim. Pierwsza wzmianka o niej pochodzi z 1267 r. To historyczny kościół z pięknym wystrojem wnętrza.",
+          "address": "Pl. Kościelny 7, 51-001 Wrocław, Polska"
+        },
+        {
+          "name": "Sobór Narodzenia Przenajświętszej Bogarodzicy",
+          "description": "XV-wieczna świątynia powstała w miejscu drewnianej kaplicy cmentarzowej. Obiekt wpisano do rejestru zabytków. Wnętrze było wielokrotnie odnawiane.",
+          "address": "ul. św. Mikołaja 57, 50-127 Wrocław, Polska"
+        },
+        {
+          "name": "Cerkiew Świętych Cyryla i Metodego",
+          "description": "Świątynia prawosławna powstała na miejscu średniowiecznej kaplicy błogosławionego Józefa, Joachima, Natalii i Adriana, która została zniszczona podczas działań wojennych.",
+          "address": "ul. św. Mikołaja 58, 50-127 Wrocław, Polska"
+        },
+        {
+          "name": "Kościół pw. św. Antoniego z Padwy",
+          "description": "To najstarszy we Wrocławiu kościół barokowy, w którym częściowo zachowało się jeszcze wyposażenie z początku XVIII wieku. To ważny obiekt z historią i sztuką sakralną.",
+          "address": "ul. św. Antoniego 3, 50-073 Wrocław, Polska"
+        },
+        {
+          "name": "Bazylika mniejsza pw. św. Elżbiety",
+          "description": "Kościół pw. Św. Elżbiety to jedna z najbardziej charakterystycznych budowli Wrocławia. Położony w pobliżu Rynku dominuje nad okolicą. To ważna świątynia w historii miasta.",
+          "address": "ul. Wita Stwosza 1, 50-148 Wrocław, Polska"
+        },
+        {
+          "name": "Kościół uniwersytecki pw. Najświętszego Imienia Jezus",
+          "description": "Wczesnobarokowy kościół wraz z przyległym uniwersytetem należy do arcydzieł budownictwa, które na Śląsku stworzyli i zostawili dla przyszłych pokoleń.",
+          "address": "ul. Uniwersytecka 67, 50-137 Wrocław, Polska"
+        },
+        {
+          "name": "Kościół pw. Opatrzności Bożej",
+          "description": "W 1947 r. kościół przekazano wrocławskiej parafii ewangelicko-augsburskiej i konsekrowano pod nowym wezwaniem. To obiekt o ciekawej historii i architekturze.",
+          "address": "ul. Świdnicka 8, 50-067 Wrocław, Polska"
+        }
+      ],
+      "fountains": [
+        {
+          "name": "Fontanna Multimedialna we Wrocławiu",
+          "description": "Fontanna multimedialna Wrocław jest największą taką fontanną w Polsce. Codziennie odbywa się 8 pokazów dziennych i 3 wieczorne przedstawienia muzyczne.",
+          "location": "ul. Korsarzy, 53-440 Wrocław, Polska"
+        },
+        {
+          "name": "Fontanna „Zdrój”",
+          "description": "Fontanna Zdrój to jedno z najbardziej charakterystycznych miejsc we Wrocławiu. Powstała w 1996 roku według projektu Alojzego Grytka.",
+          "location": "Plac Jana Pawła II, 50-041 Wrocław, Polska"
+        },
+        {
+          "name": "Fontanna Kochankowie / Zakochani",
+          "description": "Fontannę zdobi rzeźba przedstawiająca parę kochanków.",
+          "location": "ul. Sukiennice 9-11, 50-107 Wrocław, Polska"
+        },
+        {
+          "name": "Fontanna piłkarska",
+          "description": "Fontanna na skwerze przy katedrze pw. Marii Magdaleny. Oryginalne zielonkawe kule wykonano z frezowego kryształowego szkła i mają charakterystyczny piłkarski motyw.",
+          "location": "Plac Katedralny 18, 50-329 Wrocław, Polska"
+        },
+        {
+          "name": "Fontanna \"Chłopiec z łabędziem\" w Ogrodzie Staromiejskim",
+          "description": "Fontanna z figurą chłopca z łabędziem jest ozdobą Ogrodu Miejskiego, który kilka lat temu powstał w miejsce parku im. Kopernika.",
+          "location": "ul. Piotra i Pawła 58, 50-321 Wrocław, Polska"
+        },
+        {
+          "name": "Fontanna na pl. Solnym",
+          "description": "Stylizowana na zabytkową, z pyskami smoków, z których tryska woda, fontanna powstała w roku 1997 według projektu Tomasz Myczkowski.",
+          "location": "pl. Solny 14, 50-061 Wrocław, Polska"
+        },
+        {
+          "name": "Szermierz – fontanna i pomnik",
+          "description": "Jest jednym z najbardziej rozpoznawalnych i popularnych pomników Wrocławia. Fontanna z Szermierzem na pl. Uniwersyteckim to jedno z charakterystycznych miejsc w centrum miasta.",
+          "location": "Plac Uniwersytecki 1, 50-145 Wrocław, Polska"
+        },
+        {
+          "name": "Fontanna Alegoria Walki i Zwycięstwa na pl. Jana Pawła II",
+          "description": "Fontanna na pl. Jana Pawła II jest popularnym miejscem spotkań, protestów, happeningów. Przedstawia alegorię walki i zwycięstwa.",
+          "location": "Plac Jana Pawła II, 50-043 Wrocław, Polska"
+        }
+      ]
+    
+  }
+  

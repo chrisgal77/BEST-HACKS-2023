@@ -1,0 +1,103 @@
+{
+    "users": [
+        {
+            "user_id": "1",
+            "name": "Adam K",
+            "login": "abc",
+            "password": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+            "description": "Lubie muzyk\u0119 filmow\u0105 i nowoczesne formy prezentacji"
+        },
+        {
+            "user_id": "2",
+            "name": "Pati B",
+            "login": "abce",
+            "password": "5f1a92931f1472ef6303ee6b6f320dd4c7b3bcf2cc3c3e8395372ff14538baa2",
+            "description": "Bardzo lubie sztuke wsp\u00f3\u0142czesn\u0105 i muzyk\u0119"
+        },
+        {
+            "user_id": "4",
+            "login": "abcf",
+            "name": "Artur G",
+            "password": "3940920d03d60df49d0bd71c2a02c74feb70279bb100a7c58b46d5bcbe7772bc",
+            "description": "Bardzo lubie pos\u0142ucha\u0107 dobrej muzyki i wojsko"
+        },
+        {
+            "user_id": "3",
+            "login": "abcf",
+            "name": "Piotr L",
+            "password": "3940920d03d60df49d0bd71c2a02c74feb70279bb100a7c58b46d5bcbe7772bc",
+            "description": "Bardzo nie lubie militari\u00f3w i wojska"
+        },
+        {
+            "user_id": "5",
+            "login": "abcf",
+            "name": "Andrzej Q",
+            "password": "3940920d03d60df49d0bd71c2a02c74feb70279bb100a7c58b46d5bcbe7772bc",
+            "description": "Bardzo lubie farmacje i ma\u0142e kaszatany"
+        },
+        {
+            "user_id": "eafffc92-ea37-4356-bf0b-dd2337236815",
+            "name": "Sum",
+            "login": "Ego",
+            "password": "1607b03cf5f5a579491edfebc90f44abbf77ae0715e0358bedbb64a8b96ebece",
+            "description": "Lubie tramwaje oraz tory i silniki samolot\u00f3w"
+        },
+        {
+            "user_id": "74c4e151-42f0-4b8d-83c2-e8486b8b0bb7",
+            "name": "Marek Bazan",
+            "login": "bazanmarek",
+            "password": "8c2e905ccf5b10d990fd264201a20fbedbf30848c774b513ec37206fa43028ef",
+            "description": "Lubie wsp\u00f3lnoty mieszkanowie, excela oraz nie ogarnia\u0107 latex'a na wyk\u0142adach"
+        },
+        {
+            "user_id": "6de0e189-43cf-4a4d-85d0-bbdc2745920c",
+            "name": "MiszczChromowanejLufy2013",
+            "login": "DeagleMaster",
+            "password": "90dcabd477fb4075e7882f85de2497ad2a5786e27f60e2d2f102fdc7b93f3bd3",
+            "description": "Lubiem gre csgo i rurzne szczelanki, interesuje siem militariami oraz granatami"
+        },
+        {
+            "user_id": "69a52f3c-21ab-41a7-9165-6c337e0c7360",
+            "name": "ProEloKoxuPvPL",
+            "login": "Etherior",
+            "password": "3e48135a72a44282cc874120b4d717f49ffd4356b1601114051ab3fa9eb952fc",
+            "description": "Lubi\u0119 sieci, konfiguracj\u0119 router\u00f3w oraz cisco packet tracer"
+        },
+        {
+            "user_id": "548c3b87-f4a7-40a8-9eec-d965231990b4",
+            "name": "H4ck3r_P1r0_F0r_Yu0",
+            "login": "hackermaster",
+            "password": "f1b5cb242a54e07b21ef66dd7b20cd8eebbf6558c88a4f816c2c40abfe74c62f",
+            "description": "Lubie by\u0107 plecakiem, nie robi\u0107 projekt\u00f3w oraz rozmawia\u0107 po polsku"
+        },
+        {
+            "user_id": "2482017b-7dc9-4e4b-999a-451b79ab0a22",
+            "name": "Jacob Measure",
+            "login": "measure123",
+            "password": "a09f9386531fd6039894f39c9637c25966b97ddc21dbcb7b513c52c7f38cee34",
+            "description": "Lubi\u0119 mierzy\u0107, r\u00f3\u017cne jednostki geometryczne, funkcje matematyczne oraz sprawy fizyczne. Jem du\u017co bia\u0142eczka i ro\u015bnie mi dupeczka. Lubi\u0119 \u0107wiczy\u0107 stale, a w wolnym czasie analizuje magnetyczne fale"
+        },
+        {
+            "user_id": "f30aa518-722f-4e2d-874c-3b244d2c8092",
+            "name": "ZImek",
+            "login": "bezimek",
+            "password": "a2e7aeda42a9d965263b0f2121400f4ada69b4b00f348495bdb8ae5365f3ed01",
+            "description": "Lubi\u0119 gra\u0107 w pi\u0142k\u0119 no\u017cna, lubi\u0119 dzierga\u0107 swetry i militaria pl"
+        },
+        {
+            "user_id": "50cfaa3c-c04d-4a9a-80f3-004147503fe4",
+            "name": "Jakub",
+            "login": "jacob",
+            "password": "96cae35ce8a9b0244178bf28e4966c2ce1b8385723a96a6b838858cdd6ca0a1e",
+            "description": "Lubi\u0119 gra\u0107 w pi\u0142k\u0119 no\u017cn\u0105, s\u0142uchac muzyki klasycznej oraz stare ko\u015bcio\u0142y"
+        },
+        {
+            "user_id": "052dea23-2e1c-4149-8278-c65ebb1927c7",
+            "name": "w",
+            "login": "w",
+            "password": "50e721e49c013f00c62cf59f2163542a9d8df02464efeb615d31051b0fddc326",
+            "description": "Bardzo lubi\u0119 poci\u0105gi",
+            "descripion": "Bardzo lubi\u0119 stare zamki"
+        }
+    ]
+}
