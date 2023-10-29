@@ -175,7 +175,7 @@ export default {
     },
     userProfileSubpages() {
       if (typeof window !== 'undefined') {
-        if (this.getCookie('TOKEN') === '') {
+        if (this.getCookie('token') === '') {
           return [
             {
               title: 'Zaloguj',
@@ -220,9 +220,10 @@ export default {
       return ''
     },
     username() {
-      if (this.getCookie('NAME') !== '') {
-        return 'Hello, ' + this.getCookie('NAME')
+      if (this.getCookie('name') !== '') {
+        return 'Hello, ' + this.getCookie('name')
       }
+      return ''
     },
   },
 }

@@ -52,16 +52,22 @@ export default {
     return {
       carouselsData: [
         {
-          src: 'pexels-andrea-piacquadio-3884440.jpg',
+          src: '4.png',
         },
         {
-          src: 'pexels-peter-olexa-4012966.jpg',
+          src: '5.png',
         },
         {
-          src: 'pexels-thirdman-5961072.jpg',
+          src: '6.png',
         },
         {
-          src: 'pexels-andrea-piacquadio-3830745.jpg',
+          src: '7.png',
+        },
+        {
+          src: '8.png',
+        },
+        {
+          src: '9.png',
         },
       ],
       query: '',

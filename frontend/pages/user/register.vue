@@ -19,6 +19,14 @@
         label="Hasło"
         placeholder="Wprowadź swoje hasło"
       ></v-text-field>
+      <v-textarea
+        v-model="description"
+        dense
+        label="Wprowadź swój Opis"
+        auto-grow
+        rows="8"
+        row-height="20"
+      ></v-textarea>
       <v-btn
         :disabled="!form"
         :loading="loading"
@@ -41,6 +49,7 @@ export default {
     email: null,
     password: null,
     loading: false,
+    description: null,
   }),
   mounted() {
     // window.location.replace('../../')
@@ -61,6 +70,7 @@ export default {
           login: this.email,
           password: this.password,
           user: this.email,
+          description: this.description,
         }),
       })
       if (response.status !== 200) {
@@ -75,7 +85,7 @@ export default {
         document.cookie = 'token=' + data.token
         document.cookie = 'user=' + data.user
       }
-
+      window.location.replace('../../')
       this.loading = false
     },
     required(v) {
