@@ -130,7 +130,6 @@ export default {
     return {
       heroAlt: [
         {
-          src: 'pexels-moose-photos-1036641.jpg',
           heading: ' About Us ',
         },
       ],
@@ -140,28 +139,28 @@ export default {
           position: 'FrontEnd Developer',
           phone: '123 456 789',
           email: 'aa@example.com',
-          photo: 'person-1.jpg',
+          photo: 'OIG0.png',
         },
         {
           name: 'Manager',
           position: 'Project Manager',
           phone: '234 567 890',
           email: 'bb@example.com',
-          photo: 'person-2.jpg',
+          photo: 'OIG1.png',
         },
         {
           name: 'CEO',
           position: 'Marketing',
           phone: '345 678 901',
           email: 'cc@example.com',
-          photo: 'person-3.jpg',
+          photo: 'OIG2.png',
         },
         {
           name: 'Programista B',
           position: 'BackEnd Developer',
           phone: '456 789 012',
           email: 'dd@example.com',
-          photo: 'person-4.jpg',
+          photo: 'OIG3.png',
         },
       ],
     }

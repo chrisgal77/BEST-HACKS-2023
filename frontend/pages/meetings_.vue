@@ -19,12 +19,7 @@
               xl="3"
             >
               <v-card max-width="450" class="mx-auto" elevation="1">
-                <v-img
-                  class="white--text align-end"
-                  height="200px"
-                  src="pexels-moose-photos-1036641.jpg"
-                >
-                </v-img>
+                <v-img class="white--text align-end" height="200px"> </v-img>
                 <v-card-subtitle class="pb-0">
                   <v-btn href="#" text small color="primary" class="px-0"
                     >Admin</v-btn

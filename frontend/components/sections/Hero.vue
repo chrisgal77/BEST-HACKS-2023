@@ -1,13 +1,11 @@
 <template>
   <section id="hero">
     <v-carousel
+      :autoplay="false"
       height="calc(100vh - 64px)"
       dark
-      cycle
-      show-arrows-on-hover
       draggable="true"
       hide-delimiter-background
-      :interval="interval"
     >
       <v-carousel-item
         v-for="(carousel, carindex) in carouselsData"
@@ -28,12 +26,14 @@
               czego szukasz, a może uda mi się znaleźć coś co Cię zainteresuje
               ;)
             </p>
-            <v-btn
-              :x-large="$vuetify.breakpoint.smAndUp"
-              class="my-3 primary"
-              @click="sendRequest()"
-              >Wyszukaj</v-btn
-            >
+            <nuxt-link :to="getLink()">
+              <v-btn
+                :x-large="$vuetify.breakpoint.smAndUp"
+                class="my-3 primary"
+                @click="sendRequest()"
+                >Wyszukaj</v-btn
+              >
+            </nuxt-link>
             <span class="mx-2 my-4"></span>
             <v-text-field
               v-model="query"
@@ -55,33 +55,16 @@ export default {
     return {
       carouselsData: [
         {
-          src: '4.png',
-        },
-        {
-          src: '5.png',
-        },
-        {
-          src: '6.png',
-        },
-        {
-          src: '7.png',
-        },
-        {
-          src: '8.png',
-        },
-        {
-          src: '9.png',
+          src: String(Math.floor(Math.random() * 6 + 4)) + '.png',
         },
       ],
       query: '',
-      interval: 30000,
+      interval: 0,
     }
   },
   methods: {
-    sendRequest() {
-      window.location.replace(
-        './fastNotification?query=' + encodeURI(this.query)
-      )
+    getLink() {
+      return './fastNotification?query=' + encodeURI(this.query)
     },
   },
 }
